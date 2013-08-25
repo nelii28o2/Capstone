@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 18:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 19:27
 entering extended mode
 **proposal.tex
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.tex
@@ -711,17 +711,17 @@ Package pdftex.def Info: res/logo_rum.pdf used on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
-<img/pandaLogoAguacate.png, id=172, 108.405pt x 86.724pt>
-File: img/pandaLogoAguacate.png Graphic file (type png)
+<img/pandaLogoTeamAguacate.png, id=172, 108.405pt x 72.27pt>
+File: img/pandaLogoTeamAguacate.png Graphic file (type png)
 
-<use img/pandaLogoAguacate.png>
-Package pdftex.def Info: img/pandaLogoAguacate.png used on input line 26.
-(pdftex.def)             Requested size: 135.5059pt x 108.40471pt.
+<use img/pandaLogoTeamAguacate.png>
+Package pdftex.def Info: img/pandaLogoTeamAguacate.png used on input line 26.
+(pdftex.def)             Requested size: 135.5059pt x 90.33725pt.
  [1
 
 {C:/Users/Nelian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/N
 elian/Documents/GitHub/Capstone/Proposal/res/logo_rum.pdf> <C:/Users/Nelian/Doc
-uments/GitHub/Capstone/Proposal/img/pandaLogoAguacate.png>])
+uments/GitHub/Capstone/Proposal/img/pandaLogoTeamAguacate.png>])
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
@@ -823,18 +823,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
  8435 strings out of 493921
- 129650 string characters out of 3144873
+ 129670 string characters out of 3144873
  212134 words of memory out of 3000000
  11475 multiletter control sequences out of 15000+200000
  32962 words of font info for 65 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,9n,45p,598b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,45p,922b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (11 pages, 1148299 bytes).
+Output written on proposal.pdf (11 pages, 1132746 bytes).
 PDF statistics:
  357 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
