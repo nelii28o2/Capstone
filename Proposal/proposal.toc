@@ -1,13 +1,40 @@
 \contentsline {section}{\numberline {1}Executive Summary}{1}{section.1}
-\contentsline {section}{\numberline {2}Introduction}{1}{section.2}
-\contentsline {section}{\numberline {3}Problem Statement}{1}{section.3}
-\contentsline {section}{\numberline {4}Project Antecedents}{1}{section.4}
-\contentsline {section}{\numberline {5}Objectives}{1}{section.5}
-\contentsline {section}{\numberline {6}Outcomes and Metrics}{1}{section.6}
-\contentsline {section}{\numberline {7}Proposed Solution}{1}{section.7}
-\contentsline {section}{\numberline {8}Schedule}{1}{section.8}
-\contentsline {section}{\numberline {9}Assessment}{1}{section.9}
-\contentsline {section}{\numberline {10}Risk Management}{1}{section.10}
-\contentsline {section}{\numberline {11}References}{1}{section.11}
-\contentsline {section}{Appendices}{2}{section*.1}
-\contentsline {section}{\numberline {A}Qualifications}{2}{appendix.A}
+\contentsline {subsection}{\numberline {1.1}Project Overview}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Deliverables}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Milestones}{1}{subsection.1.3}
+\contentsline {section}{\numberline {2}Problem Statement}{1}{section.2}
+\contentsline {section}{\numberline {3}Project Antecedents}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}Similar Projects}{1}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Our Approach}{1}{subsection.3.2}
+\contentsline {section}{\numberline {4}Objectives}{1}{section.4}
+\contentsline {subsection}{\numberline {4.1}Objectives Outcomes and Metrics}{1}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Deliverables}{1}{subsection.4.2}
+\contentsline {section}{\numberline {5}System Overview}{2}{section.5}
+\contentsline {section}{\numberline {6}Managerial Approach}{2}{section.6}
+\contentsline {subsection}{\numberline {6.1}Meetings and Work Hours}{2}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Team Management}{2}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Testing Restrictions}{2}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Schedule}{2}{subsection.6.4}
+\contentsline {section}{\numberline {7}Personnel}{2}{section.7}
+\contentsline {subsection}{\numberline {7.1}Skills Required}{2}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Consultancy Resources}{3}{subsection.7.2}
+\contentsline {section}{\numberline {8}Resource Requirements}{3}{section.8}
+\contentsline {subsection}{\numberline {8.1}Required Resources}{3}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Resources Provided}{3}{subsection.8.2}
+\contentsline {section}{\numberline {9}Budget}{3}{section.9}
+\contentsline {subsection}{\numberline {9.1}List of Components}{3}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Project Cost}{3}{subsection.9.2}
+\contentsline {section}{\numberline {10}Assessment Methods}{3}{section.10}
+\contentsline {section}{\numberline {11}Risk Management}{3}{section.11}
+\contentsline {section}{\numberline {12}Impact and Other Issues}{3}{section.12}
+\contentsline {subsection}{\numberline {12.1}Commitments}{4}{subsection.12.1}
+\contentsline {subsubsection}{\numberline {12.1.1}Project Scope}{4}{subsubsection.12.1.1}
+\contentsline {subsubsection}{\numberline {12.1.2}Legal Issues}{4}{subsubsection.12.1.2}
+\contentsline {section}{\numberline {13}Market Overview}{4}{section.13}
+\contentsline {subsection}{\numberline {13.1}Potential Customers}{4}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Current of Potential Competition}{4}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.3}Competitive Advantages}{4}{subsection.13.3}
+\contentsline {section}{\numberline {14}References}{5}{section.14}
+\contentsline {section}{Appendices}{6}{section*.1}
+\contentsline {section}{\numberline {A}Team Aguacate Members Biographies}{6}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Neli\IeC {\'a}n E. Col\IeC {\'o}n Collazo}{6}{subsection.A.1}
