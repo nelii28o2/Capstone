@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 13:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 17:25
 entering extended mode
 **proposal.tex
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.tex
@@ -703,7 +703,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 \@outlinefile=\write3
 
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\res/titlePage.tex
-<res/logo_rum.pdf, id=163, 108.405pt x 108.405pt>
+<res/logo_rum.pdf, id=171, 108.405pt x 108.405pt>
 File: res/logo_rum.pdf Graphic file (type pdf)
  <use res/logo_rum.pdf>
 Package pdftex.def Info: res/logo_rum.pdf used on input line 11.
@@ -711,7 +711,7 @@ Package pdftex.def Info: res/logo_rum.pdf used on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
-<img/pandaLogoAguacate.png, id=164, 108.405pt x 86.724pt>
+<img/pandaLogoAguacate.png, id=172, 108.405pt x 86.724pt>
 File: img/pandaLogoAguacate.png Graphic file (type png)
 
 <use img/pandaLogoAguacate.png>
@@ -780,20 +780,24 @@ eady used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Managerial Approach}
-                                  [1])
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/personnel.tex
+                                  [1]
 
-LaTeX Warning: Reference `sec:name' on page 2 undefined on input line 6.
+LaTeX Warning: Reference `sec:schedule' on page 2 undefined on input line 12.
+
+) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/personnel.tex
+[2]
+
+LaTeX Warning: Reference `sec:name' on page 3 undefined on input line 32.
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 9.
-[2]) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/resources.tex)
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 35.
+) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/resources.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/budget.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/assessment.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/assessment.tex [3])
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/riskManagement.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/impact.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/market.tex [3])
-[4] (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.bbl
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/market.tex) [4]
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -809,7 +813,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: B8091F340D3FB657BB677D80B079F00B;2519.
+(rerunfilecheck)             Checksum: 74A1F15669436EB2FFDD6554D035B320;2682.
 
 
 LaTeX Warning: There were undefined references.
@@ -817,20 +821,20 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 8418 strings out of 493921
- 129451 string characters out of 3144873
- 208037 words of memory out of 3000000
- 11464 multiletter control sequences out of 15000+200000
+ 8431 strings out of 493921
+ 129614 string characters out of 3144873
+ 214105 words of memory out of 3000000
+ 11474 multiletter control sequences out of 15000+200000
  31826 words of font info for 64 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,5n,40p,526b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,45p,526b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on proposal.pdf (10 pages, 1134089 bytes).
+Output written on proposal.pdf (10 pages, 1136911 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 

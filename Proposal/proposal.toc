@@ -22,11 +22,11 @@
 \contentsline {subsection}{\numberline {8.1}Required Resources}{3}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Resources Provided}{3}{subsection.8.2}
 \contentsline {section}{\numberline {9}Budget}{3}{section.9}
-\contentsline {subsection}{\numberline {9.1}List of Components}{3}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Project Cost}{3}{subsection.9.2}
-\contentsline {section}{\numberline {10}Assessment Methods}{3}{section.10}
-\contentsline {section}{\numberline {11}Risk Management}{3}{section.11}
-\contentsline {section}{\numberline {12}Impact and Other Issues}{3}{section.12}
+\contentsline {subsection}{\numberline {9.1}List of Components}{4}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Project Cost}{4}{subsection.9.2}
+\contentsline {section}{\numberline {10}Assessment Methods}{4}{section.10}
+\contentsline {section}{\numberline {11}Risk Management}{4}{section.11}
+\contentsline {section}{\numberline {12}Impact and Other Issues}{4}{section.12}
 \contentsline {subsection}{\numberline {12.1}Commitments}{4}{subsection.12.1}
 \contentsline {subsubsection}{\numberline {12.1.1}Project Scope}{4}{subsubsection.12.1.1}
 \contentsline {subsubsection}{\numberline {12.1.2}Legal Issues}{4}{subsubsection.12.1.2}
@@ -38,3 +38,5 @@
 \contentsline {section}{Appendices}{6}{section*.1}
 \contentsline {section}{\numberline {A}Team Aguacate Members Biographies}{6}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Neli\IeC {\'a}n E. Col\IeC {\'o}n Collazo}{6}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Samuel A. Rodr\IeC {\'\i }guez Mart\IeC {\'\i }nez}{6}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Daniel A. Santiago Rivera}{6}{subsection.A.3}
