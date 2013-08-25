@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 19:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 19:55
 entering extended mode
 **proposal.tex
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.tex
@@ -703,7 +703,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 \@outlinefile=\write3
 
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\res/titlePage.tex
-<res/logo_rum.pdf, id=171, 108.405pt x 108.405pt>
+<res/logo_rum.pdf, id=211, 108.405pt x 108.405pt>
 File: res/logo_rum.pdf Graphic file (type pdf)
  <use res/logo_rum.pdf>
 Package pdftex.def Info: res/logo_rum.pdf used on input line 11.
@@ -711,7 +711,7 @@ Package pdftex.def Info: res/logo_rum.pdf used on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
-<img/pandaLogoTeamAguacate.png, id=172, 108.405pt x 72.27pt>
+<img/pandaLogoTeamAguacate.png, id=212, 108.405pt x 72.27pt>
 File: img/pandaLogoTeamAguacate.png Graphic file (type png)
 
 <use img/pandaLogoTeamAguacate.png>
@@ -763,9 +763,10 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [2])
+) [2] [3])
 \tf@toc=\write4
- [3]
+
+[4]
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/executiveSummary.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
@@ -780,18 +781,12 @@ l.14 P
       anda Code Review (PCR) differs from the previous efforts because it is...
 [1]) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/objectives.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/sysOverview.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/manApproach.tex
-
-LaTeX Warning: Reference `sec:schedule' on page 2 undefined on input line 13.
-
-) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/personnel.tex
-[2]
-
-LaTeX Warning: Reference `sec:name' on page 3 undefined on input line 32.
-
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/manApproach.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/personnel.tex [2]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 35.
-) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/resources.tex)
+)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/resources.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/budget.tex [3])
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/assessment.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/riskManagement.tex
@@ -805,38 +800,39 @@ ch mem-ber's in-di-vid-ual progress
 [5] (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.bbl) [6
 
 ]
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/schedule.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/qualifications.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/progAssess.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/docStand.tex [7])
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/costDetails.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/skills.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
- (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 04364BAA09CB928930426B8DE32BA735;2694.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+(rerunfilecheck)             Checksum: C37A618BFB41C11C72DF1F60CCD1570F;3332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 8435 strings out of 493921
- 129670 string characters out of 3144873
- 212134 words of memory out of 3000000
- 11475 multiletter control sequences out of 15000+200000
+ 8473 strings out of 493921
+ 130684 string characters out of 3144873
+ 212264 words of memory out of 3000000
+ 11486 multiletter control sequences out of 15000+200000
  32962 words of font info for 65 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,9n,45p,922b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,45p,922b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (11 pages, 1132746 bytes).
+Output written on proposal.pdf (13 pages, 1140825 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 347 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 427 words of extra memory for PDF output out of 10000 (max. 10000000)
 

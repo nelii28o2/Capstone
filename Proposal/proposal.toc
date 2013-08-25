@@ -36,7 +36,17 @@
 \contentsline {subsection}{\numberline {13.3}Competitive Advantages}{5}{subsection.13.3}
 \contentsline {section}{\numberline {14}References}{6}{section.14}
 \contentsline {section}{Appendices}{7}{section*.1}
-\contentsline {section}{\numberline {A}Team Aguacate Members Biographies}{7}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Neli\IeC {\'a}n E. Col\IeC {\'o}n Collazo}{7}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Samuel A. Rodr\IeC {\'\i }guez Mart\IeC {\'\i }nez}{7}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}Daniel A. Santiago Rivera}{7}{subsection.A.3}
+\contentsline {section}{\numberline {A}Schedule}{7}{appendix.A}
+\contentsline {section}{\numberline {B}Team Aguacate Members Biographies}{7}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Neli\IeC {\'a}n E. Col\IeC {\'o}n Collazo}{7}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Samuel A. Rodr\IeC {\'\i }guez Mart\IeC {\'\i }nez}{7}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Daniel A. Santiago Rivera}{7}{subsection.B.3}
+\contentsline {section}{\numberline {C}Progress Assessment}{7}{appendix.C}
+\contentsline {section}{\numberline {D}Documentation Standards}{7}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Web Application}{8}{subsection.D.1}
+\contentsline {subsubsection}{\numberline {D.1.1}General Standards}{8}{subsubsection.D.1.1}
+\contentsline {subsection}{\numberline {D.2}Minimum Browser Standards}{8}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Application Testing}{8}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}Database Standards}{8}{subsection.D.4}
+\contentsline {section}{\numberline {E}Project Cost Details}{8}{appendix.E}
+\contentsline {section}{\numberline {F}Required Skills}{8}{appendix.F}
