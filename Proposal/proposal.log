@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 19:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 21:50
 entering extended mode
 **proposal.tex
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.tex
@@ -814,15 +814,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: C37A618BFB41C11C72DF1F60CCD1570F;3332.
+(rerunfilecheck)             Checksum: 2AC7CBF7A3F3DAADCE1C07B809045846;3716.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 8473 strings out of 493921
- 130684 string characters out of 3144873
- 212264 words of memory out of 3000000
- 11486 multiletter control sequences out of 15000+200000
- 32962 words of font info for 65 fonts, out of 3000000 for 9000
+ 8476 strings out of 493921
+ 130719 string characters out of 3144873
+ 212284 words of memory out of 3000000
+ 11488 multiletter control sequences out of 15000+200000
+ 34646 words of font info for 67 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,9n,45p,922b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -830,7 +830,7 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (13 pages, 1140826 bytes).
+Output written on proposal.pdf (13 pages, 1144788 bytes).
 PDF statistics:
  421 PDF objects out of 1000 (max. 8388607)
  67 named destinations out of 1000 (max. 500000)
