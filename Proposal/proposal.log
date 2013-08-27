@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  25 AUG 2013 21:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.10)  26 AUG 2013 20:30
 entering extended mode
 **proposal.tex
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.tex
@@ -703,7 +703,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 \@outlinefile=\write3
 
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\res/titlePage.tex
-<res/logo_rum.pdf, id=211, 108.405pt x 108.405pt>
+<res/logo_rum.pdf, id=191, 108.405pt x 108.405pt>
 File: res/logo_rum.pdf Graphic file (type pdf)
  <use res/logo_rum.pdf>
 Package pdftex.def Info: res/logo_rum.pdf used on input line 11.
@@ -711,7 +711,7 @@ Package pdftex.def Info: res/logo_rum.pdf used on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
-<img/pandaLogoTeamAguacate.png, id=212, 108.405pt x 72.27pt>
+<img/pandaLogoTeamAguacate.png, id=192, 108.405pt x 72.27pt>
 File: img/pandaLogoTeamAguacate.png Graphic file (type png)
 
 <use img/pandaLogoTeamAguacate.png>
@@ -722,14 +722,14 @@ Package pdftex.def Info: img/pandaLogoTeamAguacate.png used on input line 26.
 {C:/Users/Nelian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/N
 elian/Documents/GitHub/Capstone/Proposal/res/logo_rum.pdf> <C:/Users/Nelian/Doc
 uments/GitHub/Capstone/Proposal/img/pandaLogoTeamAguacate.png>])
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/abstract.tex
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/executiveSummary.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-) [1]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
+[1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.toc
+ (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 1.
@@ -763,32 +763,28 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [2] [3])
+) [2])
 \tf@toc=\write4
-
-[4]
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/executiveSummary.tex
+ [3]
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/problemStatement.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/projectAntecedents.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/problemStatement.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/projectAntecedents.texp
-dfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
-een already used, duplicate ignored
+) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/objectives.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/manApproach.texpdfTeX w
+arning (ext4): destination with the same identifier (name{page.1}) has been alr
+eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 P
-      anda Code Review (PCR) differs from the previous efforts because it is...
-[1]) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/objectives.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/sysOverview.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/manApproach.tex)
+l.1 ...ection{Managerial Approach}{Nelián Colón}
+                                                   [1])
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/personnel.tex [2]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 35.
 )
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/resources.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/budget.tex [3])
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/assessment.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/budget.tex)
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/assessment.tex [3])
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/riskManagement.tex
 Overfull \hbox (6.029pt too wide) in paragraph at lines 3--1
 []\OT1/ptm/m/n/12 To help man-age the project and col-lect in-for-ma-tion on ea
@@ -797,42 +793,42 @@ ch mem-ber's in-di-vid-ual progress
 
 ) (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/impact.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/market.tex) [4]
-[5] (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.bbl) [6
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.bbl) [5
 
 ]
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/schedule.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/qualifications.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/progAssess.tex)
-(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/docStand.tex [7])
+(C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/docStand.tex [6])
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/costDetails.tex)
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\sec/skills.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 
 (C:\Users\Nelian\Documents\GitHub\Capstone\Proposal\proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 2AC7CBF7A3F3DAADCE1C07B809045846;3716.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
+(rerunfilecheck)             Checksum: EA1BCA7E8D1751AA1FA5395A38BAD0A8;3380.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 8476 strings out of 493921
- 130719 string characters out of 3144873
- 212284 words of memory out of 3000000
- 11488 multiletter control sequences out of 15000+200000
+ 8459 strings out of 493921
+ 130287 string characters out of 3144873
+ 214293 words of memory out of 3000000
+ 11483 multiletter control sequences out of 15000+200000
  34646 words of font info for 67 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,9n,45p,922b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,45p,922b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (13 pages, 1144788 bytes).
+Output written on proposal.pdf (11 pages, 1140384 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 427 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
 

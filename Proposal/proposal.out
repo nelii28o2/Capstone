@@ -1,52 +1,47 @@
-\BOOKMARK [1][-]{section.1}{Executive Summary - Samuel Rodr\355guez}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Project Overview}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Deliverables}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Milestones}{section.1}% 4
-\BOOKMARK [1][-]{section.2}{Problem Statement - Samuel Rodr\355guez}{}% 5
-\BOOKMARK [1][-]{section.3}{Project Antecedents - Daniel Santiago}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{Previous Work Experience}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{Similar Projects}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Objectives - Samuel Rodr\355guez}{}% 9
-\BOOKMARK [2][-]{subsection.4.1}{Objectives Outcomes and Metrics}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.2}{Deliverables}{section.4}% 11
-\BOOKMARK [1][-]{section.5}{System Overview - Daniel Santiago}{}% 12
-\BOOKMARK [1][-]{section.6}{Managerial Approach - Neli\341n Col\363n}{}% 13
-\BOOKMARK [2][-]{subsection.6.1}{Meetings and Work Hours}{section.6}% 14
-\BOOKMARK [2][-]{subsection.6.2}{Team Management}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.3}{Testing Restrictions}{section.6}% 16
-\BOOKMARK [2][-]{subsection.6.4}{Schedule}{section.6}% 17
-\BOOKMARK [1][-]{section.7}{Personnel - Neli\341n Col\363n}{}% 18
-\BOOKMARK [2][-]{subsection.7.1}{Skills Required}{section.7}% 19
-\BOOKMARK [2][-]{subsection.7.2}{Consultancy Resources}{section.7}% 20
-\BOOKMARK [1][-]{section.8}{Resource Requirements - Samuel Rodr\355guez}{}% 21
-\BOOKMARK [2][-]{subsection.8.1}{Required Resources}{section.8}% 22
-\BOOKMARK [2][-]{subsection.8.2}{Resources Provided}{section.8}% 23
-\BOOKMARK [1][-]{section.9}{Budget - Samuel Rodr\355guez}{}% 24
-\BOOKMARK [2][-]{subsection.9.1}{List of Components}{section.9}% 25
-\BOOKMARK [2][-]{subsection.9.2}{Project Cost}{section.9}% 26
-\BOOKMARK [1][-]{section.10}{Assessment Methods - Neli\341n Col\363n}{}% 27
-\BOOKMARK [1][-]{section.11}{Risk Management - Daniel Santiago}{}% 28
-\BOOKMARK [1][-]{section.12}{Impact and Other Issues - Daniel Santiago}{}% 29
-\BOOKMARK [2][-]{subsection.12.1}{Commitments}{section.12}% 30
-\BOOKMARK [3][-]{subsubsection.12.1.1}{Project Scope}{subsection.12.1}% 31
-\BOOKMARK [3][-]{subsubsection.12.1.2}{Legal Issues}{subsection.12.1}% 32
-\BOOKMARK [1][-]{section.13}{Market Overview - Daniel Santiago}{}% 33
-\BOOKMARK [2][-]{subsection.13.1}{Potential Customers}{section.13}% 34
-\BOOKMARK [2][-]{subsection.13.2}{Current of Potential Competition}{section.13}% 35
-\BOOKMARK [2][-]{subsection.13.3}{Competitive Advantages}{section.13}% 36
-\BOOKMARK [1][-]{section.14}{References}{}% 37
-\BOOKMARK [1][-]{section*.1}{Appendices}{}% 38
-\BOOKMARK [1][-]{appendix.A}{Schedule - Neli\341n Col\363n}{}% 39
-\BOOKMARK [1][-]{appendix.B}{Team Aguacate Members Biographies - Neli\341n Col\363n}{}% 40
-\BOOKMARK [2][-]{subsection.B.1}{Neli\341n E. Col\363n Collazo}{appendix.B}% 41
-\BOOKMARK [2][-]{subsection.B.2}{Samuel A. Rodr\355guez Mart\355nez}{appendix.B}% 42
-\BOOKMARK [2][-]{subsection.B.3}{Daniel A. Santiago Rivera}{appendix.B}% 43
-\BOOKMARK [1][-]{appendix.C}{Progress Assessment - Daniel Santiago}{}% 44
-\BOOKMARK [1][-]{appendix.D}{Documentation Standards - Daniel Santiago}{}% 45
-\BOOKMARK [2][-]{subsection.D.1}{Web Application}{appendix.D}% 46
-\BOOKMARK [3][-]{subsubsection.D.1.1}{General Standards}{subsection.D.1}% 47
-\BOOKMARK [2][-]{subsection.D.2}{Minimum Browser Standards}{appendix.D}% 48
-\BOOKMARK [2][-]{subsection.D.3}{Application Testing}{appendix.D}% 49
-\BOOKMARK [2][-]{subsection.D.4}{Database Standards}{appendix.D}% 50
-\BOOKMARK [1][-]{appendix.E}{Project Cost Details - Samuel Rodr\355guez}{}% 51
-\BOOKMARK [1][-]{appendix.F}{Required Skills - Neli\341n Col\363n}{}% 52
+\BOOKMARK [1][-]{section.1}{Problem Statement - Samuel Rodr\355guez}{}% 1
+\BOOKMARK [1][-]{section.2}{Project Antecedents - Neli\341n Col\363n}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Previous Work Experience}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Similar Projects}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Objectives - Samuel Rodr\355guez}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Objectives Outcomes and Metrics}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Deliverables}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Managerial Approach - Neli\341n Col\363n}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Meetings and Work Hours}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Team Management}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Testing Restrictions}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.4}{Schedule}{section.4}% 12
+\BOOKMARK [1][-]{section.5}{Personnel - Neli\341n Col\363n}{}% 13
+\BOOKMARK [2][-]{subsection.5.1}{Skills Required}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.2}{Consultancy Resources}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Resource Requirements - Samuel Rodr\355guez}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{Required Resources}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.2}{Resources Provided}{section.6}% 18
+\BOOKMARK [1][-]{section.7}{Budget - Samuel Rodr\355guez}{}% 19
+\BOOKMARK [2][-]{subsection.7.1}{List of Components}{section.7}% 20
+\BOOKMARK [2][-]{subsection.7.2}{Project Cost}{section.7}% 21
+\BOOKMARK [1][-]{section.8}{Assessment Methods - Neli\341n Col\363n}{}% 22
+\BOOKMARK [1][-]{section.9}{Risk Management - Daniel Santiago}{}% 23
+\BOOKMARK [1][-]{section.10}{Impact and Other Issues - Daniel Santiago}{}% 24
+\BOOKMARK [2][-]{subsection.10.1}{Commitments}{section.10}% 25
+\BOOKMARK [3][-]{subsubsection.10.1.1}{Project Scope}{subsection.10.1}% 26
+\BOOKMARK [3][-]{subsubsection.10.1.2}{Legal Issues}{subsection.10.1}% 27
+\BOOKMARK [1][-]{section.11}{Market Overview - Daniel Santiago}{}% 28
+\BOOKMARK [2][-]{subsection.11.1}{Potential Customers}{section.11}% 29
+\BOOKMARK [2][-]{subsection.11.2}{Current of Potential Competition}{section.11}% 30
+\BOOKMARK [2][-]{subsection.11.3}{Competitive Advantages}{section.11}% 31
+\BOOKMARK [1][-]{section.12}{References}{}% 32
+\BOOKMARK [1][-]{section*.1}{Appendices}{}% 33
+\BOOKMARK [1][-]{appendix.A}{Schedule - Neli\341n Col\363n}{}% 34
+\BOOKMARK [1][-]{appendix.B}{Team Aguacate Members Biographies - Neli\341n Col\363n}{}% 35
+\BOOKMARK [2][-]{subsection.B.1}{Neli\341n E. Col\363n Collazo}{appendix.B}% 36
+\BOOKMARK [2][-]{subsection.B.2}{Samuel A. Rodr\355guez Mart\355nez}{appendix.B}% 37
+\BOOKMARK [2][-]{subsection.B.3}{Daniel A. Santiago Rivera}{appendix.B}% 38
+\BOOKMARK [1][-]{appendix.C}{Progress Assessment - Daniel Santiago}{}% 39
+\BOOKMARK [1][-]{appendix.D}{Documentation Standards - Daniel Santiago}{}% 40
+\BOOKMARK [2][-]{subsection.D.1}{Web Application}{appendix.D}% 41
+\BOOKMARK [3][-]{subsubsection.D.1.1}{General Standards}{subsection.D.1}% 42
+\BOOKMARK [2][-]{subsection.D.2}{Minimum Browser Standards}{appendix.D}% 43
+\BOOKMARK [2][-]{subsection.D.3}{Application Testing}{appendix.D}% 44
+\BOOKMARK [2][-]{subsection.D.4}{Database Standards}{appendix.D}% 45
+\BOOKMARK [1][-]{appendix.E}{Project Cost Details - Samuel Rodr\355guez}{}% 46
+\BOOKMARK [1][-]{appendix.F}{Required Skills - Neli\341n Col\363n}{}% 47
