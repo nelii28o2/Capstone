@@ -1,10 +1,12 @@
-\autsection{Problem Statement}{Samuel Rodríguez} Most educational institutions
+\autsection{Problem Statement}{Samuel Rodríguez}
+%The problem explained
+Most educational institutions
 manually grade programming (code) assignments done by students. Manual
 evaluation of code is inefficient, it takes time and is prone to bad
 evaluations due to the big amount of different ways a program can be written.
-This then leads to only evaluate the programs results, ie. its output base on
+This then leads to only evaluate the programs results, i.e. its output based on
 an specific input. However such method of evaluation can be tricked and does
-not measure code quality. Missing the evaluation of such criterias can lead to
+not measure code quality. Missing the evaluation of such areas can lead to
 passing student with poor implementation ideas. The way the evaluation of
 output is done is by manually importing code into a workstation, possibly the
 owns TA personal machine and the manually executing the program trough some
@@ -13,6 +15,16 @@ test cases. This is highly insecure because the code is not sandboxed*
 eventually cause damage to the running workstation or even worse get a hold of
 sensitive data.
 
+%Qutoes from TAs
+Zach Cross a TA from the University of North Carolina, Chapel Hill comments when he is asked if he has a grading tool for students code:
+
+\textit{"Nothing well integrated and highly functional, mostly hacky bash/python scripts..."}
+
+Moreover he comments on their current system:
+
+\textit{"We don't have a clean web interface or anything and they aren't functional in the sense that they break for most assignments as soon as errors occur e.g. they can grade the 100\%'s but not much else."}
+
+%Here we hit stakeholders, how the project solves the problem and the scope of such solution
 The proposed solutions tackles each of the problems specified and also adds
 extra value by integrating features that can help increase the student
 programming skills. This will product will directly affect the Teacher
