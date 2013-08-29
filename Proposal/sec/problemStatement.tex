@@ -1,35 +1,38 @@
-\autsection{Problem Statement}{Samuel Rodríguez}
-%The problem explained
-Most educational institutions
-manually grade programming (code) assignments done by students. Manual
-evaluation of code is inefficient, it takes time and is prone to bad
-evaluations due to the big amount of different ways a program can be written.
-This then leads to only evaluate the programs results, i.e. its output based on
-an specific input. However such method of evaluation can be tricked and does
-not measure code quality. Missing the evaluation of such areas can lead to
-passing student with poor implementation ideas. The way the evaluation of
-output is done is by manually importing code into a workstation, possibly the
-owns TA personal machine and the manually executing the program trough some
-test cases. This is highly insecure because the code is not sandboxed*
-(Contained in an environment). The code can contain malicious code that can
-eventually cause damage to the running workstation or even worse get a hold of
-sensitive data.
+\autsection{Problem Statement}{Samuel Rodríguez} %The problem explained
 
-%Qutoes from TAs
-Zach Cross a TA from the University of North Carolina, Chapel Hill comments when he is asked if he has a grading tool for students code:
+Most educational institutions manually grade programming (code) assignments
+completed by students. Manual evaluation of code is inefficient, it takes time
+and is prone to bad evaluations due to the substantial amount of different ways
+a program can be written. This leads to only evaluate the program\'s results,
+i.e. its output, based on an specific input. However such method of evaluation
+can be maliciously exploited and does not measure code quality at all. Missing
+the evaluation of such areas can lead professors to pass student with poor
+coding performance. Currently, most professors and teaching assistants evaluate
+output by manually importing code into a workstation, most probably the grader's
+own personal machine, and then manually executing the program through some test
+cases. This is also highly insecure because the code is not properly sandboxed*
+(Contained in an environment). The code could be malicious and cause damage to
+the running workstation or even worse get a hold of sensitive data.
 
-\textit{"Nothing well integrated and highly functional, mostly hacky bash/python scripts..."}
+% Quotes from TAs
+Zach Cross a TA from the University of North Carolina, Chapel Hill comments when
+he is asked if he has a grading tool for students code:
 
-Moreover he comments on their current system:
+\textit{"Nothing well integrated and highly functional, mostly hacky bash/python
+scripts..."}
 
-\textit{"We don't have a clean web interface or anything and they aren't functional in the sense that they break for most assignments as soon as errors occur e.g. they can grade the 100\%'s but not much else."}
+Moreover he comments on the current system his institution uses for grading:
+
+\textit{"We don't have a clean web interface or anything and they aren't
+functional in the sense that they break for most assignments as soon as errors
+occur e.g. they can grade the 100\%'s but not much else."}
 
 %Here we hit stakeholders, how the project solves the problem and the scope of such solution
-The proposed solutions tackles each of the problems specified and also adds
+The proposed solution tackles each of the problems specified and also adds
 extra value by integrating features that can help increase the student
-programming skills. This will product will directly affect the Teacher
-Assistants (TAs) and the student, it will also indirectly affect the
+programming skills. This product will directly affect the Professors, Teacher
+Assistants (TAs) and the students. It will also indirectly affect the
 educational institution that uses it. The project will create a solution that
-is easy to use, secure and reliable. It will help in the grading process and
-will also give feedback on the submitted that if read and understood can lead
-to better coding practices.
+is secure, reliable, and easy to use. The solution will not only help in the grading process,
+but will also give helpful feedback that promotes better coding practices on the
+submitted code.
