@@ -1,8 +1,4 @@
 \autsection{Project Antecedents}{Nelián Colón}
-When working on a project, it is important to look at project antecedents and
-see how they can be incorporated to ours and come up with something that has
-value to add. This section talks about the team's relevant previous work,
-existing similar projects, our approach and why it is important.
 
 \subsection{Previous Work Experience}
 
@@ -23,28 +19,19 @@ assignments.
 
 \subsection{Similar Projects}
 
-%We need more advantage-disadvantage and comparison to the proposed product
-
-Educational Institutions outside of Puerto Rico have similar systems to the one
-being proposed. In 1994, University of Maryland presented Kassandra: The
-Automatic Grading System \cite{Matt1994}. As the title suggests, Kassandra is an
-automatic grading system that is used for grading assignments in scientific
-computing. This system is used by students to check the correctness of his/her
-program assignments. This is achieved by comparing the program output with an
-expected result. In 2000 the Virginia Polytechnic Institute and the Microsoft
-Research Corporation developed Curator, a web-based electronic submission that
-supports automated grading of elementary programming assignments. \cite{Curator}
-Its grading mechanism is similar to Kassandra, the programs are compiled and
-their output result is tested against with an specific input. A few years ago in
-the University of Puerto Rico at Maygauez a TA for the Data Structures course
-and former student, José Santuche, developed a small script that would checkout
-his students' code, run some tests, compare the output and send an email to the
-student with the results. However it was unreliable and had to be manually
-changed between assignments. The most currently competitive product is another
-web-based tool named Web-CAT. Web-CAT is an open-sourced automated grading
-system that is used to grade students on how well they test their own code,
-instead of comparing output results. Web-CAT needs to be installed on an
-institutions own infrastructure \cite{WebCat}.
+In 1994, University of Maryland presented Kassandra: The Automatic Grading
+System \cite{Matt1994}. As the title suggests, Kassandra is an automatic grading
+system that is used for grading assignments in scientific computing. This system
+is used by students to check the correctness of his/her program assignments.
+This is achieved by comparing the program output with the expected result. A few
+years ago, a teaching asssitant (TA) for the Data Structures course and former
+student at our University, José Santuche, developed a small script that would
+checkout his students' code, run some tests, compare the output and send an
+email to the student with the results. There are some tools that are web-based,
+for example Web-CAT. Web-CAT is an open-sourced automated grading system that is
+used to grade students on how well they test their own code, instead of
+comparing output results. Web-CAT needs to be installed on an institutions own
+infrastructure \cite{WebCat}.
 
 \subsection{Our Approach}
 
@@ -53,7 +40,7 @@ checking and privacy awareness. PCR differs from the previous efforts because it
 is fully web-based and hosted in the cloud out of the box, so there is no
 installation needed and the update process is transparent to institutions. Team
 Aguacate aims to provide a complete grading tool that, in addition of output
-correctness checking, will include code quality checking, in-line commenting
+correctness checking, it will include code quality checking, in-line commenting
 capabilities for the grader to put comments if needed, an easy way to upload
 code, among other distinctive features.
 
@@ -78,14 +65,7 @@ technologies.
 
 Since our tool will manage student data, it needs to be secure and private. It
 also needs to maintain the test cases uploaded by the instructor private to the
-students. It needs to be able to prevent malicious code to damage our system.
-
-The system must have:
-\begin{itemize}
-\item HTTPS encryption for web site traffic.
-\item System must have backup. %?
-%???
-\end{itemize}
+students.
 
 %TODO mention technologies standards aqui.
 % Some standards that we can mention (ideas):
