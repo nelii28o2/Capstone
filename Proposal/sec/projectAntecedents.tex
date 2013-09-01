@@ -2,21 +2,23 @@
 
 \subsection{Previous Work Experience}
 
-The members of Team Aguacate have known each other for several years, many of
-which have been spent developing projects for several courses and
+The members of Team Aguacate have known each other for several years. Many of
+these years have been spent developing projects for several courses and
 extracurricular activities. They have participated together in programming
 competitions, hackathons and projects, such as the Microprocessor Interfacing
-course project on the spring semester of 2013, WaveSphere \cite{Micro2}. These
-previous experiences have allowed the team to build their teamwork abilities.
+course project on the spring semester of 2013, which they called ``WaveSphere"
+\cite{Micro2}. These previous experiences have allowed the team to build their
+teamwork abilities.
 
-The team's participation in programming competition have exposed them to several 
-online judges for programming competitions, such as UVa
-\cite{UVA} and SPOJ \cite{SPOJ}. Team Aguacate has also gone through the experience
-of submitting code for programming labs. These previous experiences has lead the team 
-came up with the idea of creating something similar to an online judge to 
-facilitate not only their own work by making a tool to turn in programming 
-assignments easier and getting grades faster, but also the instructors' work that have to 
-grade hundreds of these assignments.
+The team's participation in programming competitions have exposed them to
+several  online judges for programming competitions, such as Universidad de
+Valladolid's (UVa) judge, \cite{UVA} and the Sphere Online Judge (SPOJ)
+\cite{SPOJ}. Team Aguacate has also had the experience of submitting code
+assignments for programming labs. These previous experiences have lead the team
+to come up with the idea of creating something similar to an online judge to
+facilitate not only their own work by making a tool to turn in programming
+assignments easier and getting grades faster, but also the instructors' work
+since they have to grade hundreds of these assignments.
 
 \subsection{Similar Projects}
 
@@ -26,66 +28,69 @@ Automatic Grading System \cite{Matt1994}. As the title suggests, Kassandra is an
 automatic grading system that is used for grading assignments in scientific
 computing. This system is used by students to check the correctness of their
 program assignments. This is achieved by comparing the program output with an
-expected result. In 2000, the Virginia Polytechnic Institute and the Microsoft
-Research Corporation developed Curator, a web-based electronic submission that
-supports automated grading of elementary programming assignments \cite{Curator}.
-Its grading mechanism is similar to Kassandra, the programs are compiled and
-their output result is tested against a correct output from an specific input.
-A few years ago, in the University of Puerto Rico at Mayagüez (UPRM), a TA for the Data 
-Structures
-course and former student, José Santuche \cite{Santuche}, developed a simple
-script that would checkout his students' code, run some tests, compare the
+expected result, much like current online judges do. In 2000, the Virginia
+Polytechnic Institute and the Microsoft Research Corporation developed Curator,
+a web-based electronic submission system that supports automated grading of
+elementary programming assignments \cite{Curator}. Its grading mechanism is
+similar to Kassandra; the programs are compiled and their output is tested
+against a known correct output from a specific input. A few years ago in the
+University of Puerto Rico at Mayagüez (UPRM), a former student and TA for the
+Data  Structures course, José Santuche \cite{Santuche}, developed a simple
+script that would check-out his students' code, run some tests, compare the
 output and send an email to the student with the results. However, it was
-unreliable and had to be manually changed between assignments. The most
-currently competitive product is another web-based tool named Web-CAT. Web-CAT
-is an open source automated grading system that is used to grade students on how
-well they test their own code. This is different than just comparing output results. 
-Web-CAT needs to be installed on an institution's own infrastructure \cite{WebCat}.
-Another similar product is Praktomat \cite{Praktomat}, an open source web-based
-tool for automatic grading. This product differs in that it also enables peer-
-to-peer reviews, but does not have a sophisticated testing framework.
-
-%We need more advantage-disadvantage and comparison to the proposed product
+unreliable and had to be changed manually between assignments. Currently, the
+most competitive product is another web-based tool named Web-CAT. Web-CAT is an
+open source automated grading system that is used to grade students on how well
+they test their own code. This is different than just comparing output results.
+Web-CAT needs to be installed on an institution's own infrastructure
+\cite{WebCat}. A similar product to Web-CAT is Praktomat \cite{Praktomat}, an
+open source web-based tool for automatic grading. This product differs in that
+it also enables peer- to-peer reviews, but does not have a sophisticated testing
+framework.
 
 \subsection{Proposed Approach}
 
 From the aforementioned projects, Panda Code Reviews (Panda) integrates
 correctness checking and privacy awareness. Panda differs from the previous
 efforts because it is fully web-based and hosted in the cloud out of the box, so
-there is no installation needed and the update process is transparent to
-institutions. Competing products, like Web-CAT, Praktomat, Curator, and
-Kassandra require additional infrastructure and a painful set up process. They
-all have the hassle of having to manually back up the database and distressingly
-updating the infrastructure's software. Moreover, Panda provides the missing
-feature in all other similar products, the code quality analysis. This means that the tool creates
-reports of the code's quality that help the students excel in their area and
-follow best coding practices. It will also include in-line commenting
-capabilities for enhancing the communication between the graders and students.
+there is no installation needed and the update process is completely transparent
+to institutions and users. Competing products like Web-CAT, Praktomat, Curator,
+and Kassandra require additional infrastructure and a painful set up process.
+They all have the hassle of having to manually back up the database and
+distressingly updating the infrastructure's software. Moreover, Panda provides a
+key missing feature in all other similar products: the code quality analysis.
+This means that the tool creates reports of the code's quality that greatly
+helps the students excel in their parcicular coding area and helps them follow
+the best coding practices. It will also include in-line commenting capabilities
+for enhancing the communication between the graders and students, eliminating
+the need of slow email exchanges.
 
 \subsection{Project Importance}
 
-As stated by previous and current TAs, such as José
-Santuche, it is important to have an automatic grading tool because they become
-exhausted of having to grade the same assignment over and over again, it is a
-slow and irritating process, especially when the graders have hundreds of
-students. As Jesús E. Luzón mentioned (quoted above), with only 23 students,
-grading a single assignment might take him up to 3 hours of his time. As
-Santuche mentions: \begin{quote} ``Since the process of grading is so exhaustive,
-the graders normally begin by verifying all the details, but at some point they
-just verify the output without looking at the code." \end{quote}. From the
-students perspective, the process of submitting code and waiting for a grade is
-slow and annoying as well. It is prone to mistakes when sending an e-mail or virus infections if submitting the assignment by some removable and portable storage device. Panda aims to tackle these problems by providing a
-centralized and fully integrated web-based system in which students will be able
-to submit their assignments and it will automatically grade them based on code
-quality and test cases submitted by the TA or professor. The automatic grading
-will not be applied immediately to the student, since the professor could
-override the system and use the code quality tools to determine a grade for the
-student. This tools helps the grader as much as possible, without removing power
-from the grader. This project will incorporate the use of repositories, a tool
-that is not much used in UPRM, so that it also helps students to learn
-how to use version control and source code management technologies. All of
+As stated by previous and current TAs, such as José Santuche, it is important to
+have an automatic grading tool because the graders gradually become exhausted of
+having to grade the same assignment over and over again; it is a slow and
+irritating process, especially when the graders have hundreds of students. As
+Jesús E. Luzón mentioned (quoted above), with only 23 students, grading a single
+assignment might take him up to 3 hours of his time. As Santuche mentions:
+\begin{quote} ``Since the process of grading is so exhaustive, the graders
+normally begin by verifying all the details, but at some point they just verify
+the output without looking at the code." \end{quote}. From the students'
+perspective, the process of submitting code and waiting for a grade is slow and
+irritating as well. The current way of submitting code is prone to mistakes when
+submitting the assignments via email, and is prone to virus infections when
+submitting the assignment via some portable storage device. Panda aims to tackle
+these problems by providing a centralized and fully integrated web-based system
+in which students will be able to submit their assignments and it will
+automatically grade them based on code quality and test cases submitted by the
+TA or professor. The automatic grading will not be applied immediately to the
+student, since the professor could override the system and use the code quality
+tools to determine a grade for the student. This tools helps the grader as much
+as possible, without removing power. This project will incorporate the use of
+repositories, a tool that is not much used in UPRM, so it also helps students
+learn how to use version control and source code management technologies. All of
 these solutions that the tool will provide makes it a great marketable product.
-Institutions can greatly benefit by purchasing the service of this project.
+Institutions can greatly benefit by purchasing this product as a service.
 
 \subsection{Standards and Regulations}
 
