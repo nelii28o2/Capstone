@@ -2,11 +2,16 @@
 
 \subsection{Previous Work Experience}
 
-The members of Team Aguacate have spent 4 years working together in different aspects. Since 2010, they have participated together in programming
-competitions, such as IEEE Xtreme, Inter-Universitary Competitions at UPR Bayamón and UPR Ponce, and Java Battles at UPR Mayagüez, arriving at the top 3 places in most of them. They have also participated in hackathons, together and separated, such as the Google 24 Hours Of Good (Nelián) and UPRM's First Hackathon (Daniel and Samuel). In addition, they have done some projects together, such as the Microprocessor Interfacing
-course project on the spring semester of 2013, which they called ``WaveSphere"
-\cite{Micro2}. These previous experiences have allowed the team to build their
-technical skills and teamwork abilities.
+The members of Team Aguacate have spent 4 years working together in different
+projects. Since 2010, they have participated together in programming
+competitions, such as IEEE Xtreme, Inter-Universitary Competitions at UPR
+Bayamón and UPR Ponce, and Java Battles at UPR Mayagüez, arriving at the top 3
+places in all of them. They have also participated in hackathons, such as the
+Google 24 Hours Of Good (Nelián) and UPRM's First Hackathon (Daniel and Samuel).
+In addition, they have done some projects together, such as the Microprocessor
+Interfacing course project on the spring semester of 2013, which they called
+``WaveSphere" \cite{Micro2}. These previous experiences have allowed the team to
+build their technical skills and teamwork abilities.
 
 The team's participation in programming competitions have exposed them to
 several  online judges for programming competitions, such as Universidad de
@@ -42,63 +47,54 @@ open source automated grading system that is used to grade students on how well
 they test their own code. This is different than just comparing output results.
 Web-CAT needs to be installed on an institution's own infrastructure
 \cite{WebCat}. A similar product to Web-CAT is Praktomat \cite{Praktomat}, an
-open source web-based tool for automatic grading. This product differs in that
-it also enables peer- to-peer reviews, but does not have a sophisticated testing
-framework. %TODO suppor this with reference
+open source web-based tool for automatic grading.
 
 \subsection{Proposed Approach}
 
-From the aforementioned projects, Panda Code Reviews (Panda) integrates
-correctness checking and privacy awareness. Panda differs from the previous
-efforts because it is fully web-based and hosted in the cloud out of the box, so
-there is no installation needed and the update process is completely transparent
-to institutions and users. Competing products like Web-CAT, Praktomat, Curator,
-and Kassandra require additional infrastructure and a set up process.
-They all have the hassle of having to manually back up the database and
-distressingly updating the infrastructure's software. Moreover, Panda will provide a
-key missing feature in all other similar products: the code quality analysis.
-This means that the tool creates reports of the code's quality that greatly
-helps the students excel in their parcicular coding area and helps them follow
-the best coding practices. It will also include in-line commenting capabilities
-for enhancing the communication between the graders and students, eliminating
-the need of slow email exchanges.
-%this should become specs dice fernando (?)
+From the aforementioned projects, Panda Code Reviews (Panda) performs
+correctness checking on submitted code. Panda differs from the previous efforts
+because it is fully Web-based and hosted in the cloud out of the box, so there
+is no installation needed and the update process is completely transparent to
+institutions and users. Competing products like Web-CAT, Praktomat, Curator, and
+Kassandra require additional infrastructure and a set up process. They all have
+the hassle of having to manually back up the database and distressingly updating
+the infrastructure's software. Moreover, Panda will provide a key missing
+feature in all other similar products: code quality analysis.
 
 \subsection{Project Importance}
 
 As stated by previous and current TAs, such as José Santuche, it is important to
 have an automatic grading tool because the graders gradually become exhausted of
-having to grade the same assignment over and over again; it is a slow and
-irritating process, especially when the graders have hundreds of students. As
-Jesús E. Luzón mentioned (quoted above), with only 23 students, grading a single
-assignment might take him up to 3 hours of his time. As Santuche mentions:
-\begin{quote} ``Since the process of grading is so exhausting, the graders
-normally begin by verifying all the details, but at some point they just verify
-the output without looking at the code." \end{quote}. From the students'
-perspective, the process of submitting code and waiting for a grade is slow and
-tedious as well. The current way of submitting code is prone to mistakes when
-submitting the assignments via email, and is prone to virus infections when
-submitting the assignment via some portable storage device. %why? how?
-Panda aims to tackle
-these problems by providing a centralized and fully integrated web-based system
-in which students will be able to submit their assignments and it will
-automatically grade them based on code quality and test cases submitted by the
-TA or professor. The grade will not be posted immediately, since the professor could override the system and use the code quality
-tools to determine a grade for the student. This tools helps the grader as much
-as possible, without removing control. This project will incorporate the use of
-Git repositories, a tool that is not much used in UPRM, so it also helps students
-learn how to use version control and source code management technologies. All of
-these solutions that the tool will provide makes it a great marketable product.
-Institutions can greatly benefit by purchasing this product as a service.
+having to grade the same assignment over and over again. As Jesús E. Luzón
+mentioned (quoted above), with only 23 students, grading a single assignment
+might take him up to 3 hours of his time. As Santuche mentions: \begin{quote}
+``Since the process of grading is so exhausting, the graders normally begin by
+verifying all the details, but at some point they just verify the output without
+looking at the code." \end{quote}. From the students' perspective, the process
+of submitting code and waiting for a grade is slow and tedious as well. Panda
+aims to tackle these problems by providing a centralized and fully integrated
+web-based system in which students will be able to submit their assignments and
+it will automatically grade them based on code quality and test cases submitted
+by the TA or professor. The grade will not be posted immediately, but will allow
+the grader to verify it first. This tool helps the grader as much as possible by
+giving him or her a preliminary grade, but does not remove control since the
+grader makes the final decision about the posted grade. This project will
+incorporate the use of Git as a form of code submission, so it also helps
+students learn how to use version control and source code management
+technologies. All of the features that the tool will provide makes it a great
+marketable product.
 
-\subsection{Standards and Regulations}
-%hablar sobre virus & malware
-Since the tool will manage student data, it needs to be secure and private. It
-also needs to maintain the test cases uploaded by the instructor private to the
-students. To maintain the information secure and not visible by anybody, an
-HTTPS connection will always be required between Panda and the client's
-computers. All information will be encrypted in the system, including credential
-information, account data, and repository data. Also, a very sophisticated,
-third party cloud serving infrastructure will be used to guarantee data backup
-and up to 99.99\% uptime: ensuring that the system will be available always when
-needed.
+\subsection{Standards and Regulations} Since the tool will manage student data,
+it needs to be secure and private. It also needs to maintain the test cases
+uploaded by the instructor private to the students. To maintain the information
+secure and not visible by anybody, an HTTPS connection will always be required
+between Panda and the client's computers. All information will be encrypted in
+the system, including credential information, account data, and repository data.
+Also, a very sophisticated, third party cloud serving infrastructure will be
+used to guarantee data backup and up to 99.99\% uptime: ensuring that the system
+will be available always when needed. Virus and malware protection measurments
+will be taken: the system will never try to run submitted binary files, the code
+will be compiled and executed in a sandbox, the program will be given a time and
+memory limit with restricted permissions, and the submissions will be handled by
+a global submit queue that will prevent overloading the server while preventing
+single users to submit too many jobs at once.
