@@ -17,17 +17,6 @@ code, or untrusted programs.}. The code could be malicious and cause damage to
 the running workstation or could even get a hold of very sensitive data without
 the consent of the grader \cite{Cheang2003}.
 
-% Quotes from TAs  
-
-Zach Cross \cite{Zach}, a Teaching Assistant (TA) from the University of North
-Carolina at Chapel Hill, comments when he is asked if he has a grading tool
-for student's code: \begin{quote} ``Nothing well integrated and highly
-functional, mostly hacky bash/python scripts..." \end{quote} Moreover, he
-comments on the current system his institution uses for grading: \begin{quote}
-``We don't have a clean web interface or anything and they aren't functional
-in the sense that they break for most assignments as soon as errors occur e.g.
-they can grade the 100\%'s but not much else." \end{quote}
-
 Jesús E. Luzón \cite{Chiki}, a TA from the University of Puerto Rico at
 Mayagüez, comments when asked about the time it takes to grade a 50 line coding
 assignment: \begin{quote} ``The way I grade the assignments is by creating a
@@ -54,6 +43,41 @@ The proposed project will solve four problems that manual grading has:
 \end{itemize}
 
 \subsection{Time}
+Grading programming assignments is time-consuming and tedious, graders have
+dozens of examinations to do and eventually the human factor gets involve, as
+the process keeps getting longer the human starts getting tire and his
+effectiveness to grade is reduced affecting the grades of the assignments.
+The solution solves this problem by automation. The process of verifying a
+code's correctness and quality is done automatically and the grader is notified
+so he can confirm the evaluation and provide feedback.
 \subsection{Communication}
+Due to the grading process undesirable trends have been seen. Students don't
+usually seek their TA for consulting due to the lack of feedback given in the
+grading of the assignments. Moreover due to the time it takes to grade
+assignments if any feedback is given it is less effective because by the time
+the assignments are evaluated these are no longer fresh in the student's mind
+\cite{Cheang2003}. The solution solves this problem by providing in-line and
+overall commenting on graded assignments. The grading personnel is notified when
+an assignment has been submitted so they can quickly provided feedback to
+possibly give a chance for the student to re-submit their work.
 \subsection{Security}
+Manual grading requires the students to e-mail a softcopy of the assignment with
+an optional printed documentation containing the source code. If the TA decides
+to import the students program, he will be exposing his computer to
+malicious code. The proposed solutions intends to solve this problem by running
+the code in a contained environment. A students code will be executed with
+limited privileges, time and memory.
 \subsection{Code Quality}
+The process of manual evaluation of assignments leads to some verification of
+the code's quality. Specifically maintainability, as some graders observe for
+structured code, logical variables names and good documentation. However,
+manual evaluation misses other aspects of code quality. Performance, efficiency 
+and robustness. The proposed solution will do, to some extend, code quality
+evaluation. Performance will be tested by providing time and memory consumption
+limits. Robustness will be evaluated by testing the student's code against
+extreme cases. Some aspects of maintainability will be automatically verified
+with the use of linters \footnote{In computer programming, lint, is the name
+given to a particular program that flags suspicious usage in software written
+in any computer language. Lint-like tools generally perform static analysis of
+source code. Lint as a term can also refer more broadly to syntactic
+discrepancies in general.}.
