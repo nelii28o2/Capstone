@@ -1,24 +1,21 @@
 \autsection{Problem Statement}{Samuel Rodríguez} %The problem explained
 
-%TODO Anadir numeros (para concretizar las mejoras de tiempo que tiene el
-% proyecto).
-
 Most educational institutions manually grade coding assignments completed by
-students \cite{Cheang2003}. Manual evaluation of code is inefficient: it takes a great deal of
-time and is prone to bad evaluations due to the substantial amount of
-different ways a program can be written. This leads the grader to only
-evaluate the program's output based on an specific input. Such a method of
-evaluation can be maliciously exploited and does not measure code quality at
-all. Missing the evaluation of code quality can lead professors to pass
-students with mediocre coding skills. Currently, most professors and teaching
+students \cite{Cheang2003}. Manual evaluation of code takes a great deal of time
+and is prone to bad evaluations due to the substantial amount of different ways
+a program can be written. This leads the grader to only evaluate the program's
+output based on an specific input. Such a method of evaluation can be
+maliciously exploited and does not measure code quality at all. Missing the
+evaluation of code quality and other important details can lead professors to
+evaluate students inconsistently. Currently, most professors and teaching
 assistants evaluate output by manually importing code into a workstation, most
 probably the grader's own personal machine, and then manually executing the
-program through some test cases. This is highly insecure because the code is
-not properly sandboxed \footnote{In computer security, a sandbox is a security
-mechanism for separating running programs. It is often used to execute
-untested code, or untrusted programs.}. The code could be malicious and cause
-damage to the running workstation or could even get a hold of very sensitive
-data.
+program through some test cases. This is highly insecure because the code is not
+properly sandboxed \footnote{In computer security, a sandbox is a security
+mechanism for separating running programs. It is often used to execute untested
+code, or untrusted programs.}. The code could be malicious and cause damage to
+the running workstation or could even get a hold of very sensitive data without
+the consent of the grader \cite{Cheang2003}.
 
 % Quotes from TAs  
 
@@ -32,36 +29,27 @@ in the sense that they break for most assignments as soon as errors occur e.g.
 they can grade the 100\%'s but not much else." \end{quote}
 
 Jesús E. Luzón \cite{Chiki}, a TA from the University of Puerto Rico at
-Mayagüez, comments when asked about the time it takes to grade a 50 line
-coding assignment: \begin{quote} ``The way I grade the assignments is by
-creating a testing project that only includes the student's code. I check out
-the project from the students repository and then run the code and compare the
-output. For a well written assignment, It takes me about 3 to 4 minutes to
-evaluate it. But for an assignment that has errors, it takes me about double
-the time: from 6 to 8 minutes. This happens because I need to figure out where
-exactly the error comes from, so that I can give the student some useful
-feedback." \end{quote} When asked about how many students he grades, he
-comments: \begin{quote} ``I have 23 students, which doesn't seem like too
+Mayagüez, comments when asked about the time it takes to grade a 50 line coding
+assignment: \begin{quote} ``The way I grade the assignments is by creating a
+testing project that only includes the student's code. I check out the project
+from the students repository and then run the code and compare the output. For a
+well written assignment, It takes me about 3 to 4 minutes to evaluate it. But
+for an assignment that has errors, it takes me about double the time: from 6 to
+8 minutes. This happens because I need to figure out where exactly the error
+comes from, so that I can give the student some useful feedback." \end{quote}
+Luzón grades an assigment weekly. When asked about how many students he grades,
+he comments: \begin{quote} ``I have 23 students, which doesn't seem like too
 many, but the time it takes to grade their assignments adds up quickly. In the
 worst case, I can spend 3 hours grading a single assignment." \end{quote}
 
 %Here we hit stakeholders, how the project solves the problem and the scope of
 %such solution
 
-The proposed solution makes the grading of coding assignments more efficient by
-providing an easy to use web-based application that handles submissions and
-automatic grading of coding assignments. It is expected that the solution will
-reduce the time it takes to evaluate a 50 line coding assignment by 75\%, from a
-maximum of 8 minutes to a maximum of just 2 minutes. It will also completely
-eliminate all overhead preparation efforts like setting up individual projects
-and checking-in many different code repositories. It will not only grade based
-on the program's output but also on code quality and performance. This solves
-the problem of inaccurate grading by taking into account other factors that
-measure a student's academic achievements. The proposed solution tackles each of
-the problems specified and also adds extra value by integrating features that
-can help increase the student's programming skills, e.g. it provides helpful
-feedback that promotes better coding practices on the student's submitted code,
-and it promotes usage of version control systems. This product will directly
-benefit the Professors, Teaching Assistants (TAs) and the students. It will also
-indirectly benefit the educational institution that uses it. The proposed
-solution is secure, reliable, and easy to use.
+The proposed project will solve four problems that manual grading has:
+\begin{itemize}
+\item Time consuming grading process.
+\item Slow and ineffective communication between students and graders.
+\item Insecure evaluation because submitted code might be malicious.
+\item Absence of code quality evaluation.
+\end{itemize}
+
