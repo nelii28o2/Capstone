@@ -30,10 +30,6 @@ Luzón grades an assigment weekly. When asked about how many students he grades,
 he comments: \begin{quote} ``I have 23 students, which doesn't seem like too
 many, but the time it takes to grade their assignments adds up quickly. In the
 worst case, I can spend 3 hours grading a single assignment." \end{quote}
-
-%Here we hit stakeholders, how the project solves the problem and the scope of
-%such solution
-
 The proposed project will solve four problems that manual grading has:
 \begin{itemize}
 \item Time consuming grading process.
@@ -43,41 +39,58 @@ The proposed project will solve four problems that manual grading has:
 \end{itemize}
 
 \subsection{Time}
+
 Grading programming assignments is time-consuming and tedious, graders have
-dozens of examinations to do and eventually the human factor gets involve, as
-the process keeps getting longer the human starts getting tire and his
-effectiveness to grade is reduced affecting the grades of the assignments.
-The solution solves this problem by automation. The process of verifying a
-code's correctness and quality is done automatically and the grader is notified
-so he can confirm the evaluation and provide feedback.
+dozens of examinations to do and eventually the human factor gets involved. As
+the process keeps getting longer, the human becomes tired and his effectiveness
+to grade is reduced. This directly affects the grades of the assignments. The
+proposed solution solves this problem by automation. The process of verifying a
+code's correctness is done automatically by compiling the code and then running
+it against the grader's specified test cases. If the code does not compile, or
+if a test case fails, the submission is deemed as incorrect.
+
 \subsection{Communication}
-Due to the grading process undesirable trends have been seen. Students don't
+
+Due to the grading process, undesirable trends have been seen. Students do not
 usually seek their TA for consulting due to the lack of feedback given in the
-grading of the assignments. Moreover due to the time it takes to grade
-assignments if any feedback is given it is less effective because by the time
-the assignments are evaluated these are no longer fresh in the student's mind
-\cite{Cheang2003}. The solution solves this problem by providing in-line and
-overall commenting on graded assignments. The grading personnel is notified when
-an assignment has been submitted so they can quickly provided feedback to
-possibly give a chance for the student to re-submit their work.
+grading of the assignments. Moreover, if any feedback is given, it is less
+effective because by the time the assignments are evaluated these are no longer
+fresh in the student's mind \cite{Cheang2003}. The solution solves this problem
+by providing in-line and general commenting on graded assignments. The grading
+personnel is notified when an assignment has been submitted so that they can
+quickly provided feedback. This opens up the possibility to give another chance
+to the student to submit his or her work.
+
 \subsection{Security}
-Manual grading requires the students to e-mail a softcopy of the assignment with
-an optional printed documentation containing the source code. If the TA decides
-to import the students program, he will be exposing his computer to
+
+Manual grading requires the students to e-mail a soft copy of the assignment
+with an optional printed documentation containing the source code. If the TA
+decides to import the student's program, he will be exposing his computer to
 malicious code. The proposed solutions intends to solve this problem by running
 the code in a contained environment. A students code will be executed with
 limited privileges, time and memory.
+
 \subsection{Code Quality}
+
 The process of manual evaluation of assignments leads to some verification of
-the code's quality. Specifically maintainability, as some graders observe for
-structured code, logical variables names and good documentation. However,
-manual evaluation misses other aspects of code quality. Performance, efficiency 
-and robustness. The proposed solution will do, to some extend, code quality
-evaluation. Performance will be tested by providing time and memory consumption
-limits. Robustness will be evaluated by testing the student's code against
-extreme cases. Some aspects of maintainability will be automatically verified
-with the use of linters \footnote{In computer programming, lint, is the name
-given to a particular program that flags suspicious usage in software written
-in any computer language. Lint-like tools generally perform static analysis of
-source code. Lint as a term can also refer more broadly to syntactic
-discrepancies in general.}.
+the code's quality, specifically maintainability; some graders observe for
+structured code, logical variables names and good documentation. However, manual
+evaluation might miss other aspects of code quality: performance and robustness.
+The proposed solution will do code quality evaluation to some extent.
+Performance will be tested by providing time and memory usage limits. Robustness
+will be evaluated by testing the student's code against extreme cases that are
+specified by the instructor. Some aspects of maintainability will be
+automatically verified with the use of linters \footnote{In computer
+programming, lint is the name given to a particular program that flags
+suspicious usage in software written in any computer language. Lint-like tools
+generally perform static analysis of source code. Lint as a term can also refer
+more broadly to syntactic discrepancies in general.}. They include configurable
+coding guidelines, the presence of documentation in the source code, and
+practices that avoid the creation of hard to debug problems (i.e reporting
+strict mode warnings).
+
+Some aspects of code quality will not be addressed, including time complexity
+analysis (i.e. Big-O complexity), implementation patterns (e.g. recursive vs
+iterative, top-down vs. top-up, etc.), logical naming of variables, relevancy of
+comments, object oriented structure, and code security (i.e. finding exploits in
+the submitted program).
