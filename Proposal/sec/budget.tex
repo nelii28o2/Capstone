@@ -24,6 +24,14 @@ needed for software development.
 deploying the project. The service is the most reasonable for the project, since
 it is able to scale automatically and the pricing changes depending on the
 amount of server usage.
+
+%EC2 Instance specs: C1.Medium (Compute-optimized)
+% Intel Xeon - 2 vCPU, 5 ECU, 350GB, $0.145 per Hour
+% Auto-Scaling: $0.025 per Elastic Load Balancer-hour, $0.008 per GB of data processed by an Elastic Load Balancer
+
+%We have to do some math and mention how that math is considering x amount of
+% active instances.
+
 \item Symantec Verisign 256 bit SSL certificate (\$400 per year).
 \end{itemize}
 
