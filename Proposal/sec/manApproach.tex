@@ -53,4 +53,21 @@ separate file.
 \end{center}
 
 \subsection{Testing and Quality Control Procedures}
-%TODO
+
+To ensure the quality of the software product, the team will employ both static
+and dynamic testing. Static testing will be performed via code reviews for every
+single Git repository commit. The reviewers will be the other two team members
+that do not submit the comment, hence, every team member will review each change
+for commit. The review will include running the change in each of the team
+member's work station, and visually inspecting the code. This will help detect
+bugs and also maintain good coding guidelines and style. Dynamic testing will be
+performed via different testing levels. The first level will be Unit testing,
+which will be required for every commit in which unit tests are applicable. If a
+unit test is not included in an applicable change, then the commit will be
+unapproved by the other team members, and will not be pushed to the main
+repository. The next level of testing will be integration testing, which will
+occur even before integration begins. The last testing level will be system
+testing, which will occur on Amazon's infracture on every push of the
+repository. Nightly builds will be uploaded to Amazon's infrastructure to ensure
+that the system is working every time, and system tests will run after the
+change is built remotely.
