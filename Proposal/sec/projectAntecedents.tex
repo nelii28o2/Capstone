@@ -7,7 +7,8 @@ projects. Since 2010, they have participated together in programming
 competitions, such as IEEE Xtreme, Inter-Universitary Competitions at UPR
 Bayamón and UPR Ponce, and Java Battles at UPR Mayagüez, arriving at the top 3
 places in all of them. They have also participated in hackathons, such as the
-Google 24 Hours Of Good (Nelián) and UPRM's First Hackathon (Daniel and Samuel).
+Google 24 Hours Of Good (Nelián) and UPRM's First Hackathon \cite{hack1} (Daniel and Samuel),
+which received a special prize for  best MongoDB implementation \cite{hack2}.
 In addition, they have done some projects together, such as the Microprocessor
 Interfacing course project on the spring semester of 2013, which they called
 ``WaveSphere" \cite{Micro2}. These previous experiences have allowed the team to
@@ -59,7 +60,7 @@ institutions and users. Competing products like Web-CAT, Praktomat, Curator, and
 Kassandra require additional infrastructure and a set up process. They all have
 the hassle of having to manually back up the database and distressingly updating
 the infrastructure's software. Moreover, Panda will provide a key missing
-feature in all other similar products: code quality analysis.
+feature in all other similar products, code quality analysis, to some extent.
 
 \subsection{Project Importance}
 
@@ -70,7 +71,7 @@ mentioned (quoted above), with only 23 students, grading a single assignment
 might take him up to 3 hours of his time. As Santuche mentions: \begin{quote}
 ``Since the process of grading is so exhausting, the graders normally begin by
 verifying all the details, but at some point they just verify the output without
-looking at the code." \end{quote}. From the students' perspective, the process
+looking at the code." \end{quote} From the students' perspective, the process
 of submitting code and waiting for a grade is slow and tedious as well. Panda
 aims to tackle these problems by providing a centralized and fully integrated
 web-based system in which students will be able to submit their assignments and
@@ -82,7 +83,8 @@ grader makes the final decision about the posted grade. This project will
 incorporate the use of Git as a form of code submission, so it also helps
 students learn how to use version control and source code management
 technologies. All of the features that the tool will provide makes it a great
-marketable product.
+marketable product, since it will provide more features than the previous 
+competing attemps while still being free to use. 
 
 \subsection{Standards and Regulations} Since the tool will manage student data,
 it needs to be secure and private. It also needs to maintain the test cases
@@ -97,4 +99,5 @@ will be taken: the system will never try to run submitted binary files, the code
 will be compiled and executed in a sandbox, the program will be given a time and
 memory limit with restricted permissions, and the submissions will be handled by
 a global submit queue that will prevent overloading the server while preventing
-single users to submit too many jobs at once.
+single users to submit too many jobs at once. More standards can be found in 
+Appendix~\ref{sec:stand}.
