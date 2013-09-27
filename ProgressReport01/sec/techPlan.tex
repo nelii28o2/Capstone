@@ -1,4 +1,125 @@
 \autsection{Technical Plan}{Nelián Colón, Samuel Rodríguez and Daniel Santiago}
+
+\subsection{Web Application}
+The web application is the whole system. It has many parts, which follow.
+
+\subsection{Front end}
+
+The frontend is being developed in HTML4 with some features of the new HTML5,
+CSS3, and Javascript. The majority of the CSS is modified Bootstrap code, a
+front end framework for faster and easier web development. JQuery and AngularJS
+are being used as scripting frameworks for dynamic web pages.
+
+\subsubsection{CSS}
+
+The web application's layout is constructed on top of an HTML template that has
+been created from scratch. Bootstrap containers and components are being used
+for maintaining excellent responsiveness while resizing a browser window, as
+well as for easily adopting the layout in mobile devices. Additionally,
+Bootstrap includes many Javascript plugins for controlling some of the
+component's animations. Some components have to be heavily modified for
+suitability in the application.
+
+Jetstrap, a Bootstrap interface builder, is being used for the majority of the
+development of the front end. Sublime Text 2 is also being used for
+development, and Git is the version control manager. Chrome Dev Tools and
+Firebug plugin for Firefox are being used for debugging front end code.
+
+\subsection{Javascript}
+
+The dynamic elements of the CSS code is mostly being controlled by the
+underlying Javascript which is being written with JQuery and AngularJS.
+
+\subsubsection{Views}
+% Parenthesis means that no mock exists yet.
+Index
+
+Login
+(Sign Up)
+
+Account Home
+
+Course (Falta professor, create course | edit mode)
+
+Assignment (falta edit mode, create assignment)
+	Info
+	Submissions
+	Test Cases
+	Repositories (Gitlab)
+
+(Admin panel)
+	(Schools)
+	(Server status)
+
+(Account Settings (Profile))
+(Professor's side of grading)
+
+
+\subsection{Back end}
+The back end is the service that is drives the front end. The front end sends
+requests for data to the back end, which proceeds with establishing a
+connection to the MongoDB database server and then passing the query's result
+to the front end. The back end is also responsible of instantiating the sand
+boxes where the submitted code and test cases will run.
+
+\subsubsection{Node.js}
+
+Node.js is a platform built on Google Chrome's Open Source V8 JavaScript runtime
+engine for easily building fast and scalable network and server-side
+applications. It uses JavaScript as its scripting language and achieves high
+throughput via an event driven, non-blocking I/O model on a single-threaded
+event loop. It also contains a built-in HTTP server library, which allows for
+easy deployment of a web server without the need of external HTTP servers like
+Apache, Lighttpd or Nginx. Node.js poses additonal ease of use when it comes to
+interacting with MongoDB, since it uses JSON-style documents as well. This means
+that no additional library or wrapper is needed to communicate with the
+database.
+
+\subsubsection{GitLab}
+GitLab is open source software to help developers collaborate on code. It can
+be used to create projects and repositories and manage access.
+
+\subsubsection{Endpoints}
+
+\subsubsection{Codeworkers}
+
+\subsection{Database}
+
+The database is used for storing all required information about the system and
+its users.
+
+\subsubsection{MongoDB}
+
+MongoDB is a cross-platform document-oriented database system. It is classified
+as a NoSQL database which provides a mechanism for storage retrieval that is not
+as constrained as relational databases like MySQL or PostgreSQL. MongoDB
+features JSON-style (JavaScript Object Notation) documents with dynamic schemas,
+which allows simpler and quicker development. A dynamic schema approach enables
+flexibility for quickly changing applications, and the JSON style documents
+provide a unified language for passing database objects between the Node.js
+backend and the front end, both written entirely in Javascript. MongoDB is the
+leading NoSQL DBMS, it is more stable than its closest competitor Redis. 
+
+\subsubsection{Entity-Relationship Diagram}
+
+We have defined the collections following two different approaches: the
+standard ER diagram that defines entities and the relationships with each other
+and a JSON-like diagram that better models MongoDB's Documents and Collections.
+Overall, we created structures for users (Administrators, Professors, Students
+and TAs), courses, assignments and submissions.
+
+
+\subsection{Deployment}
+
+We have set up continuous development in our deployment server colocated at
+Amazon's EC2 infrastructure. This enables us to always have a working version
+hosted in the cloud which gets automatically deployed whenever a developer
+pushes code to the master branch in Git. When the latest version is pushed, the
+Node Package Manager (NPM) runs code tests to make sure that the latest push is
+healthy. If it passes the tests, the server is shut down, any new dependencies
+are installed with NPM, and the server is restarted with the new changes in
+effect. This all happens automatically.
+
 %presents and describes design alternatives, and justifies all the choices made
 
 %presents and describes system architecture
