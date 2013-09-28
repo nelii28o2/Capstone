@@ -103,26 +103,33 @@ Assignment (falta edit mode, create assignment)
 (Professor's side of grading)
 
 
-\subsection{Back end}
-The back end is the service that is drives the front end. The front end sends
-requests for data to the back end, which proceeds with establishing a
-connection to the MongoDB database server and then passing the query's result
-to the front end. The back end is also responsible of instantiating the sand
-boxes where the submitted code and test cases will run.
+\subsection{Back end} The back end is the underlying server side software that
+manages the communication and flow between the front end and the database
+server, the repository manager, and the testing framework. The front end sends
+requests for data to the back end using its REST API. The back end then proceeds
+with establishing a connection to the MongoDB database server and then passing
+the query's result to the front end. The database server returns query results
+with JSON objects, and the back end does not have to translate this information
+in any way, since the front end also uses JSON objects as discussed in the
+earlier sections. The back end is also responsible of instantiating the sand
+boxes where the submitted code and test cases will run. This is also invoked by
+orders of the users when they interact with the front end of Panda Code
+Reviews.
 
 \subsubsection{Node.js}
 
 % a~nadir  footnotes explicando.
-Node.js is a platform built on Google Chrome's Open Source V8 JavaScript runtime
-engine for easily building fast and scalable network and server-side
-applications. It uses JavaScript as its scripting language and achieves high
-throughput via an event driven, non-blocking I/O model on a single-threaded
-event loop. It also contains a built-in HTTP server library, which allows for
-easy deployment of a web server without the need of external HTTP servers like
-Apache, Lighttpd or Nginx. Node.js poses additonal ease of use when it comes to
-interacting with MongoDB, since it uses JSON-style documents as well. This means
-that no additional library or wrapper is needed to communicate with the
-database.
+
+The back end service is being build in JavaScript using Node.js. Node.js is a
+platform built on Google Chrome's Open Source V8 JavaScript runtime engine for
+easily building fast and scalable network and server-side applications. It uses
+JavaScript as its scripting language and achieves high throughput via an event
+driven, non-blocking I/O model on a single-threaded event loop. It also contains
+a built-in HTTP server library, which allows for easy deployment of a web server
+without the need of external HTTP servers like Apache, Lighttpd or Nginx.
+Node.js poses additonal ease of use when it comes to interacting with MongoDB,
+since it uses JSON-style documents as well. This means that no additional
+library or wrapper is needed to communicate with the database.
 
 \subsubsection{GitLab}
 GitLab is open source software to help developers collaborate on code. It can
