@@ -12,7 +12,7 @@ interface and the database, repository manager and testing framework. The front
 end and the back end are connected in various parts, so this must be properly
 designed for ensuring compatibility and hassle-free communication. For example,
 data passing between the database and the front end through the back end must
-be concise, so a standard object model should be used. We discuss in the
+be concise, so a standard object model should be used. It is discussed in the
 following sections the usage of JSON objects for this purporse. Additionally,
 the URL end points of the application must be specified for compatibility
 between the front end and the back end.
@@ -103,18 +103,22 @@ Assignment (falta edit mode, create assignment)
 (Professor's side of grading)
 
 
-\subsection{Back end} The back end is the underlying server side software that
-manages the communication and flow between the front end and the database
-server, the repository manager, and the testing framework. The front end sends
-requests for data to the back end using its REST API. The back end then proceeds
-with establishing a connection to the MongoDB database server and then passing
-the query's result to the front end. The database server returns query results
-with JSON objects, and the back end does not have to translate this information
-in any way, since the front end also uses JSON objects as discussed in the
-earlier sections. The back end is also responsible of instantiating the sand
-boxes where the submitted code and test cases will run. This is also invoked by
-orders of the users when they interact with the front end of Panda Code
-Reviews.
+\subsection{Back end}
+
+The back end is the underlying server side software that manages the
+communication and flow between the front end and the database server, the
+repository manager, and the testing framework. The front end sends requests for
+data to the back end using its REST API. The back end then proceeds with
+establishing a connection to the MongoDB database server and then passing the
+query's result to the front end. The database server returns query results with
+JSON objects, and the back end does not have to translate this information in
+any way, since the front end also uses JSON objects as discussed in the earlier
+sections. The back end is also responsible of instantiating the sand boxes where
+the submitted code and test cases will run. This is also invoked by orders of
+the users when they interact with the front end of Panda Code Reviews.
+
+% usar palabra fancy: serialization and deseriaization. Si fuera SQL, habria
+% que hacer todas esas cosas.
 
 \subsubsection{Node.js}
 
@@ -132,8 +136,9 @@ since it uses JSON-style documents as well. This means that no additional
 library or wrapper is needed to communicate with the database.
 
 \subsubsection{GitLab}
-GitLab is open source software to help developers collaborate on code. It can
-be used to create projects and repositories and manage access.
+
+GitLab is open source software to help developers collaborate on code. It can be
+used to create projects and repositories and manage access.
 
 \subsubsection{Endpoints}
 
@@ -154,11 +159,11 @@ which allows simpler and quicker development. A dynamic schema approach enables
 flexibility for quickly changing applications, and the JSON style documents
 provide a unified language for passing database objects between the Node.js
 backend and the front end, both written entirely in Javascript. MongoDB is the
-leading NoSQL DBMS, it is more stable than its closest competitor Redis. 
+leading NoSQL DBMS, it is more stable than its closest competitor Redis.
 
 \subsubsection{Entity-Relationship Diagram}
 
-We have defined the collections following two different approaches: the
+The collections have been defined following two different approaches: the
 standard ER diagram that defines entities and the relationships with each other
 and a JSON-like diagram that better models MongoDB's Documents and Collections.
 Overall, we created structures for users (Administrators, Professors, Students
@@ -167,14 +172,14 @@ and TAs), courses, assignments and submissions.
 
 \subsection{Deployment}
 
-We have set up continuous development in our deployment server colocated at
-Amazon's EC2 infrastructure. This enables us to always have a working version
-hosted in the cloud which gets automatically deployed whenever a developer
-pushes code to the master branch in Git. When the latest version is pushed, the
-Node Package Manager (NPM) runs code tests to make sure that the latest push is
-healthy. If it passes the tests, the server is shut down, any new dependencies
-are installed with NPM, and the server is restarted with the new changes in
-effect. This all happens automatically.
+Continuous development has been set up in the deployment server colocated at
+Amazon's EC2 infrastructure. This enables an always working version hosted in
+the cloud which gets automatically deployed whenever a developer pushes code to
+the master branch in Git. When the latest version is pushed, the Node Package
+Manager (NPM) runs code tests to make sure that the latest push is healthy. If
+it passes the tests, the server is shut down, any new dependencies are installed
+with NPM, and the server is restarted with the new changes in effect. This all
+happens automatically.
 
 %presents and describes design alternatives, and justifies all the choices made
 
