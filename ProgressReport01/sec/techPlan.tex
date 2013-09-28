@@ -1,34 +1,82 @@
 \autsection{Technical Plan}{Nelián Colón, Samuel Rodríguez and Daniel Santiago}
 
 \subsection{Web Application}
-The web application is the whole system. It has many parts, which follow.
+
+Panda Code Reviews is a fully hosted web application. The web application
+includes many parts, the main of these are the front end and the back end. The
+front end is what the user sees and interacts with directly. It is very
+important to design the front end with ease of use in mind, and almost equally
+important is designing the interface with a clean and modern look. The back end
+is the underlying software that manages the communication between the front end
+interface and the database, repository manager and testing framework. The front
+end and the back end are connected in various parts, so this must be properly
+designed for ensuring compatibility and hassle-free communication. For example,
+data passing between the database and the front end through the back end must
+be concise, so a standard object model should be used. We discuss in the
+following sections the usage of JSON objects for this purporse. Additionally,
+the URL end points of the application must be specified for compatibility
+between the front end and the back end.
 
 \subsection{Front end}
 
-The frontend is being developed in HTML4 with some features of the new HTML5,
-CSS3, and Javascript. The majority of the CSS is modified Bootstrap code, a
-front end framework for faster and easier web development. JQuery and AngularJS
-are being used as scripting frameworks for dynamic web pages.
+As mentioned earlier, it is very important to design the front end interface
+with ease of use in mind, and it is also very important to design the interface
+with a clean and modern look. The Model-View-Controller (MVC) pattern is being
+followed for developing the front end. The idea of the MVC pattern is to have an
+good organization in the code between managing the application's data (model),
+the application's logic (controller), and the application's presentation (view).
+The view gets data from the model to display to the user. When a user interacts
+with the application, the controller changes data in the model, and the data
+gets passed from the model to the view so that it is displayed to the user. In
+the case of Panda Code Reviews, the view of the application is the Document
+Object Model (DOM) of the web pages. The controller of the application is
+JavaScript code that uses AngularJS, and the model data is all stored in JSON
+objects.
 
-\subsubsection{CSS}
+One of the most difficult tasks in developing the front end of the application
+is ensuring good compatibility between the model, the view and the controller.
+AngularJS makes this compatibility easier by providing a type of templating
+engine in the client side. It allows for automatic refreshing of data. For
+example, if the controller of the application changes the model data, AngularJS
+automatically refreshes the view so that it gets displayed to the user. And if
+the view is changed by the user, AngularJS can automatically update the model.
 
-The web application's layout is constructed on top of an HTML template that has
-been created from scratch. Bootstrap containers and components are being used
-for maintaining excellent responsiveness while resizing a browser window, as
-well as for easily adopting the layout in mobile devices. Additionally,
-Bootstrap includes many Javascript plugins for controlling some of the
-component's animations. Some components have to be heavily modified for
-suitability in the application.
+\subsubsection{View}
 
-Jetstrap, a Bootstrap interface builder, is being used for the majority of the
-development of the front end. Sublime Text 2 is also being used for
-development, and Git is the version control manager. Chrome Dev Tools and
-Firebug plugin for Firefox are being used for debugging front end code.
+The view is being handled by HTML and CSS. Panda Code Reviews uses Bootstrap, an
+open source front end framework for faster and easier development of the front
+end's view. It provides many CSS classes for easily templating the web pages. It
+is also highly customizable, and provides a JavaScript plugin interface for
+enabling animations and other features like component pinning. These plugins
+might be activated by the controller or by other means such as after a page
+loads.
 
-\subsection{Javascript}
+\subsubsection{Controller}
 
-The dynamic elements of the CSS code is mostly being controlled by the
-underlying Javascript which is being written with JQuery and AngularJS.
+The controller of the front end is being developed in JavaScript. JavaScript is
+implemented by all major browsers and provides a very comprehensive standard
+library for manipulating elements of the DOM and registering event listeners.
+JQuery, a comprehensive JavaScript library, is being used for simplifying and
+reusing many routines. Also, AngularJS is being used for simplifying
+communication between the model, the view and the controller. More will be
+discussed about AngularJS in the next section.
+
+\subsubsection{Model and Communication}
+
+The model of the application is embedded in the controller and specified in the
+database, which the front end has no direct access to. Instead, the front end
+will communicate with the back end through a REST API, and the back end will
+answer the front end's query with JSON objects. AngularJS, an open source
+templating framework, will be used for simplifying the communications between
+the front end's controller and model. AngularJS will also be used for
+communicating with the back end through its REST API. When the user interacts
+with the front end's view, AngularJS responds by changing the model in the front
+end, which will then call the necessary controller functions that will
+communicate with the back end through its REST API. The back end will respond to
+the controller's query with JSON objects, and AngularJS will manage the change
+of data between the controller, the model and the view. AngularJS is also highly
+modifiable, so some functionality is overriden so that it better suits Panda
+Code Review's functionalities.
 
 \subsubsection{Views}
 % Parenthesis means that no mock exists yet.
