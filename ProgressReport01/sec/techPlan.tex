@@ -346,14 +346,15 @@ description.
 A codeworker will be a JavaScript object in the back end that will implement
 methods for compiling and running the test cases of the assignment submission
 that they are affiliated to. These workers are created when a student submits an
-assignment for evaluation trough the front end. The front end then proceeds to
-pass the information ti the back end server trough the submission endpoint. The
-codeworkers are placed on a queue and they get executed as they reach the front
-of such queue. The codeworkers then proceeds to compile, execute and test the
-code provided to him trough the submission and he then reports back the result.
+assignment for evaluation trough the front end. The front end proceeds by
+passing the information to the back end server trough the submission endpoint.
+The codeworkers are placed on a queue and they get executed as they reach the
+front of the queue. The codeworkers then proceed to compile, execute and test
+the code provided to it through the submission and then reports back the
+result.
 
 Figure~\ref{fig:flow} contains a flow chart that depicts the flow of events of
-the Codeworkers.
+the codeworkers.
 
 \begin{figure}[H]
 	\centering
@@ -364,9 +365,9 @@ the Codeworkers.
 \subsubsection{Email Server}
 
 Postfix\cite{postfix} will be used as the mail transfer agent that delivers and
-receives email for the @panda.org domain. Emails are sent for account
+receives email for the @pandacode.org domain. Emails are sent for account
 verification and password reset mechanism. It is also used for support and
-contacting emails suach help@panda.com and market@panda.com
+contacting emails such as help@pandacode.org and market@pandacode.org
 
 
 \subsection{Database}
