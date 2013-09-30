@@ -99,7 +99,7 @@ users should expect to see.
 \item Assignment Test Cases
 \item Assignment Repositories
 \item Add test cases (this is in assignment but no modal in it)
-\item Grade (** professor)
+\item Grade (this is in course-prof)
 \item Account Profile
 \item Account Security
 
@@ -149,9 +149,14 @@ An endpoint of a software designed with the service-oriented architecture (SOA)
 pattern is the entry point of a particular service that the software provides,
 where a service stands for a single activity. In the case of Panda Code Reviews,
 the Endpoints are specified by the URLs that the client's browser must access in
-order to receive the individual services that make up the web application. The
-user need not know or specify these Endpoints, since the web application
-provides them to the client's browser.
+order to receive the individual services from the back end that make up the web
+application. The user need not know or specify these Endpoints, since the web
+application's front end will already provide them to the client's browser. These
+end points are designed using the RESTful (representational state transfer) web
+design architecture. The Endpoint URLs will be prefixed by api/ in order to
+clearly separate the URLs that are intended to be part of the RESTful API of
+the backend and the URLs that are intended to be accessed as part of the front
+end application.
 
 \subsubsection{Codeworkers}
 
