@@ -229,9 +229,103 @@ application. The user need not know or specify these Endpoints, since the web
 application's front end will already provide them to the client's browser. These
 Endpoints are designed using the RESTful (representational state transfer) web
 design architecture. The Endpoint URLs will be prefixed by api/ in order to
-clearly separate the URLs that are intended to be part of the RESTful API of
-the backend and the URLs that are intended to be accessed as part of the front
-end application.
+clearly separate the URLs that are intended to be part of the RESTful API of the
+backend and the URLs that are intended to be accessed as part of the front end
+application. The following tables specify the endpoints' method, url and
+description.
+
+\setlength{\extrarowheight}{1.5pt}
+    \begin{longtable}{|c|c|c|c|}
+ \caption{Users Endpoints\label{tab:addlabel}} \\
+     \hline
+    
+    \centering  Method & Path & Query String & Description \\
+    \hline \hline \endfirsthead
+    
+         \hline
+
+  \centering  Method & Path & Query String & Description \\
+    \hline \hline \endhead
+    
+    \endfoot  
+    GET   & /users & ?course=\$cid & {Gets list of users} \\ \hline
+    GET   & /users/\$uid &       & {Gets data from user \$uid} \\ \hline
+    POST  & /users &       & {Creates users with JSON pyaload} \\ \hline
+    PUT   & /users/\$uid &       & {Updates user \$uid data with JSON payload} \\ \hline
+    DELETE & /users/\$uid &       & {Soft delete user \$uid} \\ \hline
+    GET   & /users/\$uid/courses & ?year=\$y\&semester=\$s & {Gets courses of user \$uid} \\ \hline
+    GET   & /users/\$id/assignments & ?course=\$cid & {Gets assigments of user \$uid} \\ \hline
+    GET   & /users/\$id/submissions & ?assigment=\$aid\&course=\$cid & {Gets submissions of user \$uid} \\ \hline
+\end{longtable}
+
+\setlength{\extrarowheight}{1.5pt}
+    \begin{longtable}{|c|c|c|c|}
+ \caption{Courses Endpoints\label{tab:addlabel}} \\
+     \hline
+    
+    \centering  Method & Path & Query String & Description \\
+    \hline \hline \endfirsthead
+    
+         \hline
+
+    \centering  Method & Path & Query String & Description \\
+    \hline \hline \endhead
+    
+    \endfoot 
+    GET   & /courses & ?year=\$y\&semester=\$s & {Gets list of courses} \\ \hline
+    GET   & /courses/\$cid &       & {Gets data from course \$cid} \\ \hline
+    POST  & /courses &       & {Creates course with JSON payload} \\ \hline
+    PUT   & /courses/\$cid &       & {Updates course \$cid data with JSON pyaload} \\ \hline
+    DELETE & /courses/\$cid &       & {Soft delete course \$cid} \\ \hline
+    GET   & /courses/\$cid/users & ?isGrade=\$bool & {Gets users of course \$cid} \\ \hline
+    POST  & /courses/\$cid/users/\$uid &       & {Adds user \$uid to course \$cid} \\ \hline
+    DELETE & /courses/\$cid/users/\$uid &       & {Removes user \$uid from course \$cid} \\ \hline
+    GET   & /courses/\$cid/assignments &       & {Gets assigments of course \$cid} \\ \hline
+    GET   & /courses/\$cid/submissions & ?assignment=\$aid & {Gets submissions of course \$cid} \\ \hline
+\end{longtable}
+
+\setlength{\extrarowheight}{1.5pt}
+    \begin{longtable}{|c|c|c|c|}
+ \caption{Submissions Endpoints\label{tab:addlabel}} \\
+     \hline
+    
+    \centering  Method & Path & Query String & Description \\
+    \hline \hline \endfirsthead
+    
+         \hline
+
+    \centering  Method & Path & Query String & Description \\
+    \hline \hline \endhead
+    
+    \endfoot 
+    GET   & /assignments &       & {Gets a list of assignments} \\ \hline
+    GET   & /assignments/\$aid &       & {Gets data from assignment \$aid} \\ \hline
+    POST  & /assignments &       & {Creates assignment from JSON payload} \\ \hline
+    PUT   & /assignments &       & {Updates assignment \$aid data with JSON payload} \\ \hline
+    DELETE & /assignments/\$aid &       & {Soft delete assignment \$aid} \\ \hline
+    POST  & /assignments/\$aid/test &       & {Creates a test case from assignment \$aid} \\ \hline
+    DELETE & /assignments/\$aid/test/\$tid &       & {Deletes test case \$tid from assignment \$aid} \\ \hline
+\end{longtable}
+
+\setlength{\extrarowheight}{1.5pt}
+    \begin{longtable}{|c|c|c|c|}
+ \caption{Submissions Endpoints\label{tab:addlabel}} \\
+     \hline
+    
+    \centering  Method & Path & Query String & Description \\
+    \hline \hline \endfirsthead
+    
+         \hline
+
+    \centering  Method & Path & Query String & Description \\
+    \hline \hline \endhead
+    
+    \endfoot 
+    GET   & /submissions &       & {Gets a list of submissions} \\ \hline
+    GET   & /submissions/\$sid &       & {Gets data from submissions \$sid} \\ \hline
+    POST  & /submissions &       & {Creates submissions from JSON payload. Endpoint that queues code for evaluation} \\ \hline
+\end{longtable}
+
 
 \subsubsection{Codeworkers}
 
