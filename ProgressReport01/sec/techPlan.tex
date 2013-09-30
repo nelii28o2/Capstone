@@ -14,7 +14,7 @@ designed for ensuring compatibility and hassle-free communication. For example,
 data passing between the database and the front end through the back end must
 be concise, so a standard object model should be used. It is discussed in the
 following sections the usage of JSON objects for this purporse. Additionally,
-the URL end points of the application must be specified for compatibility
+the URL Endpoints of the application must be specified for compatibility
 between the front end and the back end.
 
 \subsection{Front end}
@@ -82,26 +82,101 @@ Code Review's functionalities.
 As the time of this writing, the team has developed some static web pages with
 HTML4/5 and Bootstrap CSS. This doubles as part of the implementation of the
 front end and as Mockups creation for the design phase. The application views
-that have been planned by the team follows with screenshots of what different
-users should expect to see.
+that have been planned by the team follows. Screenshots of what the users is
+expected to see are found in Appendix.
+%TODO(samus250) specify what appendix.
 
 \begin{enumerate}
-\item Site Home Page
-\item Login
-\item Sign Up
-\item Account Home (student and professor)
-\item Create Course
-\item View Course
-\item Enroll Course
-\item Create Assignment (this is in course-prof)
-\item Assignment Information
-\item Assignment Submissions
-\item Assignment Test Cases
-\item Assignment Repositories
-\item Add test cases (this is in assignment but no modal in it)
-\item Grade (this is in course-prof)
-\item Account Profile
-\item Account Security
+
+\item \textbf{Site Home Page:} The site homepage will include information and
+marketing information about Panda Code Reviews and the services that it offers.
+It will also include links for logging in and signing up. If the user is
+already logged in, it will also include links for accessing his account
+home page and general account settings.
+
+\item \textbf{Login and Sign Up:} The login screen and sign up screen asks for
+the users e-mail and password. If the user clicks the sign up button, it will
+also ask for the user's name and for a password retype.
+
+\item \textbf{Account Home:} The account home will show different things
+depending on the user. If the user is a student, the account home will show the
+enrolled courses and will also contain a button for enrolling new courses. Each
+course will also contain a snippet of the assignments that are due and the
+dates at which they are due. The student could click on the course name to see
+more information about the course, and he could also click on the due
+assignment names to see more information about the assignments. In the case of
+a professor, he would be able to see the list of courses, and could also create
+a new course. The professor would also be able to see the amount of students
+enrolled in the course and the names, contact emails, and summary of grades of
+each student.
+
+\item \textbf{Create Course:} The professor is the only one that can see the
+create course view. This view is included as part of the account home of the
+professor, it is a drop down that asks for the new course's name. After
+creating the course, the professor can edit it and add students.
+% todo, there is something missing here.
+
+\item \textbf{View Course:} Students and professors can view the courses. in
+case of the student, he will be able to see basic information about the course,
+like course title, number, semester, and year. He can also see a summary of his
+grade, his assignments, and his submissions. He can also see contact
+information of his professor in a glance. A professor can see with great detail
+the amount of students in the course, and the assignments that he currently has
+in the course. He can also edit and delete the course from this veiw, and can
+create new assignments to add to the course.
+
+\item \textbf{Enroll Course:} The student can easily enroll in a course in the
+enroll course view which is part of the student's account home view. This view
+is a drop down that only asks for the courses name. This is a searching
+feature. As the student types up the name, it will instantly provide results.
+The student can then select a course and enroll in it.
+
+\item \textbf{Create Assignment:} The professor can create an assignment in his
+course view. This view is a drop down, where the professor can add the
+name and the due date of the assignment.
+
+\item \textbf{Assignment Information:} Professors and students can see this
+view. For the students, the information view will contain the description, the
+instructions for completing the assignment, the due date, the student's score,
+and the last submission date. The professor also has the ability to view the
+scores of every student, and can also edit and delete information from the
+assignment. A student can only view the information of the assignment and can
+only view his own grade.
+
+\item \textbf{Assignment Submissions:} Both students and professors can see the
+assignment submissions. The difference is that the students can only see their
+own submissions, whereas the professor can see the submissions of every single
+student. the submission information will include the hash id, the student's
+name, the submit date, the result of the suybmission, the score, the compile
+time of the submission, and the run time of the submission. The professor will
+also have an additional button that allows him to override the grade of a
+student.
+
+\item \textbf{Assignment Test Cases:} Both students and professors can see the
+assignment test cases, the difference is that the professor can add, edit and
+delete test cases, whereas the student can only view them and develop his
+assignment accordingly.
+
+\item \textbf{Assignment Repositories:} Both the students and the professors
+can see the repositories, but the student can only see his own repositories
+whereas the professors can see the repositories of every student.
+
+\item \textbf{Add test cases:} The professor can add test cases in the
+assignment test cases view. This will ask for the input of the test case and
+the expected output.
+
+\item \textbf{Grade:} Both students and professor can see grades. The students
+can see their own grade from the assignment view and from the course view. The
+student will be able to view grade from specific assignments or total grades
+for specific courses. The professors can see the grades of every student for
+his courses and assignments. He can also modify their grades.
+
+\item \textbf{Account Profile:} Both students and professors will be able to
+see the account profiles.
+
+\item \textbf{Account Security:} Both students and professors will be able to
+see their account securities information. This will include the ability to
+change their passwords and view and add ssh keys.
 
 
 \end{enumerate}
@@ -152,7 +227,7 @@ the Endpoints are specified by the URLs that the client's browser must access in
 order to receive the individual services from the back end that make up the web
 application. The user need not know or specify these Endpoints, since the web
 application's front end will already provide them to the client's browser. These
-end points are designed using the RESTful (representational state transfer) web
+Endpoints are designed using the RESTful (representational state transfer) web
 design architecture. The Endpoint URLs will be prefixed by api/ in order to
 clearly separate the URLs that are intended to be part of the RESTful API of the
 backend and the URLs that are intended to be accessed as part of the front end
