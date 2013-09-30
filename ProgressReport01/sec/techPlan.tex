@@ -188,18 +188,13 @@ repository manager, and the testing framework. The front end sends requests for
 data to the back end using its REST API. The back end then proceeds with
 establishing a connection to the MongoDB database server and then passing the
 query's result to the front end. The database server returns query results with
-JSON objects, and the back end does not have to translate this information in
-any way, since the front end also uses JSON objects as discussed in the earlier
-sections. The back end is also responsible of instantiating the sand boxes where
-the submitted code and test cases will run. This is also invoked by orders of
-the users when they interact with the front end of Panda Code Reviews.
-
-% usar palabra fancy: serialization and deseriaization. Si fuera SQL, habria
-% que hacer todas esas cosas.
+JSON objects, and the back end does not have to serialize and deserialize the
+information since the front end also uses JSON objects as discussed in the
+earlier sections. The back end is also responsible of instantiating the sand
+boxes where the submitted code and test cases will run. This is also invoked by
+orders of the users when they interact with the front end of Panda Code Reviews.
 
 \subsubsection{Node.js}
-
-% a~nadir  footnotes explicando.
 
 The back end service is being built in JavaScript using Node.js. Node.js is a
 platform built on Google Chrome's Open Source V8 JavaScript runtime engine for
@@ -208,14 +203,16 @@ JavaScript as its scripting language and achieves high throughput via an event
 driven, non-blocking I/O model on a single-threaded event loop. It also contains
 a built-in HTTP server library, which allows for easy deployment of a web server
 without the need of external HTTP servers like Apache, Lighttpd or Nginx.
-Node.js poses additonal ease of use when it comes to interacting with MongoDB,
+Node.js poses additional ease of use when it comes to interacting with MongoDB,
 since it uses JSON-style documents as well. This means that no additional
 library or wrapper is needed to communicate with the database.
 
 \subsubsection{GitLab}
 
 GitLab is open source software to help developers collaborate on code. It can be
-used to create projects and repositories and manage access.
+used to create projects and repositories and manage access via HTTPS and SSH
+authentication. The team found no other software that provides a similar amount
+of API functions that GitLab provides.
 
 \subsubsection{Endpoints}
 
@@ -229,8 +226,8 @@ application's front end will already provide them to the client's browser. These
 Endpoints are designed using the RESTful (representational state transfer) web
 design architecture. The Endpoint URLs will be prefixed by api/ in order to
 clearly separate the URLs that are intended to be part of the RESTful API of the
-backend and the URLs that are intended to be accessed as part of the front end
-application. The following tables specify the endpoints' method, url and
+back end and the URLs that are intended to be accessed as part of the front end
+application. The following tables specify the endpoints' method, URL and
 description.
 
 \setlength{\extrarowheight}{1.5pt}
@@ -342,7 +339,7 @@ features JSON-style (JavaScript Object Notation) documents with dynamic schemas,
 which allows simpler and quicker development. A dynamic schema approach enables
 flexibility for quickly changing applications, and the JSON style documents
 provide a unified language for passing database objects between the Node.js
-backend and the front end, both written entirely in Javascript. MongoDB is the
+back end and the front end, both written entirely in JavaScript. MongoDB is the
 leading NoSQL DBMS, it is more stable than its closest competitor Redis.
 
 \subsubsection{Entity-Relationship Diagram}
@@ -358,7 +355,7 @@ and TAs), courses, assignments and submissions.
 
 \subsection{Deployment}
 
-Continuous development has been set up in the deployment server colocated at
+Continuous development has been set up in the deployment server collocated at
 Amazon's EC2 infrastructure. This enables an always working version hosted in
 the cloud which gets automatically deployed whenever a developer pushes code to
 the master branch in Git. When the latest version is pushed, the Node Package
@@ -369,25 +366,3 @@ happens automatically.
 
 % This is the overview of the front end and back end architecture.
 \includepdf[pages={-}]{img/tech_archi.pdf}
-
-%presents and describes design alternatives, and justifies all the choices made
-
-%presents and describes system architecture
-
-%present progress in the design with technical diagrams and description of system components (appendices required for calculations, and detailed documentation diagrams and descriptions)
-
-%analyzes and justifies any departures with respect to original plan
-
-%presents snapshots or other evidences
-
-%check list:
-
-%present system design overview
-%present sys conceptual design (how it will look like)
-%present software architecture
-%present component description
-%present user interface
-%presents software progress assessment
-%presents class diagrams
-%presents software design justications
-%presents communication interfaces
