@@ -235,7 +235,7 @@ application. The following tables specify the endpoints' method, url and
 description.
 
 \setlength{\extrarowheight}{1.5pt}
-    \begin{longtable}{|c|c|c|c|}
+    \begin{longtable}{|c|c|c|m{4cm}|}
  \caption{Users Endpoints\label{tab:addlabel}} \\
      \hline
     
@@ -259,7 +259,7 @@ description.
 \end{longtable}
 
 \setlength{\extrarowheight}{1.5pt}
-    \begin{longtable}{|c|c|c|c|}
+    \begin{longtable}{|c|c|c|m{4.5cm}|}
  \caption{Courses Endpoints\label{tab:addlabel}} \\
      \hline
     
@@ -286,44 +286,44 @@ description.
 
 \setlength{\extrarowheight}{1.5pt}
     \begin{longtable}{|c|c|c|c|}
- \caption{Submissions Endpoints\label{tab:addlabel}} \\
+ \caption{Assignments Endpoints\label{tab:addlabel}} \\
      \hline
     
-    \centering  Method & Path & Query String & Description \\
+    \centering  Method & Path & Description \\
     \hline \hline \endfirsthead
     
          \hline
 
-    \centering  Method & Path & Query String & Description \\
+    \centering  Method & Path & Description \\
     \hline \hline \endhead
     
     \endfoot 
-    GET   & /assignments &       & {Gets a list of assignments} \\ \hline
-    GET   & /assignments/\$aid &       & {Gets data from assignment \$aid} \\ \hline
-    POST  & /assignments &       & {Creates assignment from JSON payload} \\ \hline
-    PUT   & /assignments &       & {Updates assignment \$aid data with JSON payload} \\ \hline
-    DELETE & /assignments/\$aid &       & {Soft delete assignment \$aid} \\ \hline
-    POST  & /assignments/\$aid/test &       & {Creates a test case from assignment \$aid} \\ \hline
-    DELETE & /assignments/\$aid/test/\$tid &       & {Deletes test case \$tid from assignment \$aid} \\ \hline
+    GET   & /assignments & {Gets a list of assignments} \\ \hline
+    GET   & /assignments/\$aid & {Gets data from assignment \$aid} \\ \hline
+    POST  & /assignments & {Creates assignment from JSON payload} \\ \hline
+    PUT   & /assignments & {Updates assignment \$aid data with JSON payload} \\ \hline
+    DELETE & /assignments/\$aid & {Soft delete assignment \$aid} \\ \hline
+    POST  & /assignments/\$aid/test & {Creates a test case from assignment \$aid} \\ \hline
+    DELETE & /assignments/\$aid/test/\$tid & {Deletes test case \$tid from assignment \$aid} \\ \hline
 \end{longtable}
 
 \setlength{\extrarowheight}{1.5pt}
-    \begin{longtable}{|c|c|c|c|}
+    \begin{longtable}{|c|c|m{10cm}|}
  \caption{Submissions Endpoints\label{tab:addlabel}} \\
      \hline
     
-    \centering  Method & Path & Query String & Description \\
+    \centering  Method & Path & Description \\
     \hline \hline \endfirsthead
     
          \hline
 
-    \centering  Method & Path & Query String & Description \\
+    \centering  Method & Path & Description \\
     \hline \hline \endhead
     
     \endfoot 
-    GET   & /submissions &       & {Gets a list of submissions} \\ \hline
-    GET   & /submissions/\$sid &       & {Gets data from submissions \$sid} \\ \hline
-    POST  & /submissions &       & {Creates submissions from JSON payload. Endpoint that queues code for evaluation} \\ \hline
+    GET   & /submissions & {Gets a list of submissions} \\ \hline
+    GET   & /submissions/\$sid & {Gets data from submissions \$sid} \\ \hline
+    POST  & /submissions & {Creates submissions from JSON payload. Endpoint that queues code for evaluation} \\ \hline
 \end{longtable}
 
 
