@@ -79,29 +79,32 @@ modifiable, so some functionality is overriden so that it better suits Panda
 Code Review's functionalities.
 
 \subsubsection{Views}
-% Parenthesis means that no mock exists yet.
-Index
+As the time of this writing, the team has developed some static web pages with
+HTML4/5 and Bootstrap CSS. This doubles as part of the implementation of the
+front end and as Mockups creation for the design phase. The application views
+that have been planned by the team follows with screenshots of what different
+users should expect to see.
 
-Login
-(Sign Up)
+\begin{enumerate}
+\item Site Home Page
+\item Login
+\item Sign Up
+\item Account Home (student and professor)
+\item Create Course
+\item View Course
+\item Enroll Course
+\item Create Assignment (**) % esto falta
+\item Assignment Information
+\item Assignment Submissions
+\item Assignment Test Cases
+\item Assignment Repositories
+\item Add test cases (**)
+\item Grade (** professor)
+\item Account Profile
+\item Account Security
 
-Account Home
 
-Course (Falta professor, create course | edit mode)
-
-Assignment (falta edit mode, create assignment)
-	Info
-	Submissions
-	Test Cases
-	Repositories (Gitlab)
-
-(Admin panel)
-	(Schools)
-	(Server status)
-
-(Account Settings (Profile))
-(Professor's side of grading)
-
+\end{enumerate}
 
 \subsection{Back end}
 
@@ -141,6 +144,14 @@ GitLab is open source software to help developers collaborate on code. It can be
 used to create projects and repositories and manage access.
 
 \subsubsection{Endpoints}
+
+An endpoint of a software designed with the service-oriented architecture (SOA)
+pattern is the entry point of a particular service that the software provides,
+where a service stands for a single activity. In the case of Panda Code Reviews,
+the Endpoints are specified by the URLs that the client's browser must access in
+order to receive the individual services that make up the web application. The
+user need not know or specify these Endpoints, since the web application
+provides them to the client's browser.
 
 \subsubsection{Codeworkers}
 
