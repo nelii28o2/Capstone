@@ -212,7 +212,11 @@ library or wrapper is needed to communicate with the database.
 GitLab is open source software to help developers collaborate on code. It can be
 used to create projects and repositories and manage access via HTTPS and SSH
 authentication. The team found no other software that provides a similar amount
-of API functions that GitLab provides.
+of API functions that GitLab provides. GitLab will be used as the repository
+manager for Panda Code Reviews. The Node.js server will communicate with the
+GitLab instance trough HTTP requests and will be able to manage repositories.
+Management includes, basic CRUD (Create, Read, Update, Delete) of repositories
+and users within.
 
 \subsubsection{Endpoints}
 
@@ -326,7 +330,11 @@ description.
 \subsubsection{Codeworkers}
 A codeworker will be a JavaScript object in the back end that will implement
 methods for compiling and running the test cases of the assignment submission
-that they are affiliated to.
+that they are affiliated to. These workers are created when a students submits
+an assignment for evaluation. The codeworkers are placed on a queue and they get
+executed as they reach the front of such queue. The codeworkers then proceeds to
+compile, execute and test the code provided to him trough the submission and he
+then reports back the result.
 
 Figure~\ref{fig:flow} contains a flow chart that depicts the flow of events of
 the Codeworkers.
@@ -334,7 +342,7 @@ the Codeworkers.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{img/flowchart}
-	\caption{Flow Chart\label{fig:flow}}
+	\caption{Codeworker flow chart\label{fig:flow}}
 \end{figure}
 
 \subsection{Database}
