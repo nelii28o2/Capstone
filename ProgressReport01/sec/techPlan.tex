@@ -13,9 +13,17 @@ end and the back end are connected in various parts, so this must be properly
 designed for ensuring compatibility and hassle-free communication. For example,
 data passing between the database and the front end through the back end must be
 concise, so a standard object model should be used. It is discussed in the
-following sections the usage of JSON objects for this purpose. Additionally, the
-URL Endpoints of the application must be specified for compatibility between the
-front end and the back end. These are specified in later sub sections.
+following sections the usage of JSON\cite{JSON} objects for this purpose.
+Additionally, the URL Endpoints of the application must be specified for
+compatibility between the front end and the back end. Figure~\ref{fig:archi}
+displays a high level architectural diagram of the application. Following is the
+description of each component.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/archi}
+    \caption{Front end and Back end High Tech Diagram\label{fig:archi}}
+\end{figure}
 
 \subsection{Front end}
 
@@ -30,8 +38,8 @@ with the application, the controller changes data in the model, and the data
 gets passed from the model to the view so that it is displayed to the user. In
 the case of Panda Code Reviews, the view of the application is the Document
 Object Model (DOM) of the web pages. The controller of the application is
-JavaScript code that uses AngularJS, and the model data is all stored in JSON
-objects.
+JavaScript code that uses AngularJS\cite{angular}, and the model and exchange
+data format is JSON.
 
 One of the most difficult tasks in developing the front end of the application
 is ensuring good compatibility between the model, the view and the controller.
@@ -44,22 +52,22 @@ updates the model.
 
 \subsubsection{View}
 
-The view is being handled by HTML and CSS. Panda Code Reviews uses Bootstrap, an
-open source front end framework for faster and easier development of the front
-end's view. It provides many CSS classes for easily templating the web pages. It
-is also highly customizable, and provides a JavaScript plugin interface for
-enabling animations and other features like component pinning and affixes. These
-plugins might be activated by the controller or by other means such as after a
-page loads in the client's browser.
+The view is being handled by HTML and CSS. Panda Code Reviews uses
+Bootstrap\cite{bootstrap}, an open source front end framework for faster and
+easier development of the front end's view. It provides many CSS classes for
+easily templating the web pages. It is also highly customizable, and provides a
+JavaScript plugin interface for enabling animations and other features like
+component pinning and affixes. These plugins might be activated by the
+controller or by other means such as after a page loads in the client's browser.
 
 \subsubsection{Controller}
 
 The controller of the front end is being developed in JavaScript. JavaScript is
 a scripting language implemented by all major browsers and provides a very
 extensive standard library for manipulating elements of the DOM and registering
-event listeners. JQuery, a comprehensive JavaScript library, is being used for
-simplifying and reusing many routines. Additionally, AngularJS is also embedded
-in the controller. It is explained in the next section.
+event listeners. JQuery\cite{jquery}, a comprehensive JavaScript library, is
+being used for simplifying and reusing many routines. Additionally, AngularJS is
+also embedded in the controller. It is explained in the next section.
 
 \subsubsection{Model and Communication with the Controller}
 
@@ -86,7 +94,9 @@ that have been planned by the team follows. Use case diagrams can be found in
 Appendix~\ref{sec:useCase} and descriptions can be found in
 Appendix~\ref{sec:useCases}. Screenshots of what the users is expected to see
 are found in Appendix~\ref{sec:mockups}. Sequential diagrams that describe the
-actions that the users can perform can be found in Appendix~\ref{sec:seqs}.
+actions that the users can perform can be found in Appendix~\ref{sec:seqs}. The
+following list enumerates the views and briefly describe its content and
+available actions.
 
 \begin{enumerate}
 
@@ -98,7 +108,8 @@ general account settings.
 
 \item \textbf{Login and Sign Up:} The login screen and sign up screen asks for
 the users e-mail and password. If the user clicks the sign up button, it will
-also ask for the user's name and for a password retype.
+also ask for the necessary information to create and account: name,
+email, password and school.
 
 \item \textbf{Account Home:} The account home will show different things
 depending on the user. If the user is a student, the account home will show the
@@ -113,17 +124,17 @@ course and the names, contact emails, and summary of grades of each student.
 
 \item \textbf{Create Course:} The professor is the only one that can see the
 create course view. This view is included as part of the account home of the
-professor, it is a drop down that asks for the new course's name. After creating
-the course, the professor can edit it and add students.
+professor, it is a drop down that asks for the new course's information. After
+creating the course, the professor can edit it and add students.
 
-\item \textbf{View Course:} Students and professors can view the courses. in
-case of the student, he will be able to see basic information about the course,
-like course title, number, semester, and year. He can also see a summary of his
-grade, his assignments, and his submissions. He can also see contact information
-of his professor in a glance. A professor can see with great detail the amount
-of students in the course, and the assignments that he currently has in the
-course. He can also edit and delete the course from this view, and can create
-new assignments to add to the course.
+\item \textbf{View Course:} Students and professors can view detail information
+about a course. In case of the student, he will be able to see basic information
+about the course, like course title, number, semester, and year. He can also see
+a summary of his grade, his assignments, and his submissions. He can also see
+contact information of his professor in a glance. A professor can see with great
+detail the amount of students in the course, and the assignments that he
+currently has in the course. He can also edit and delete the course from this
+view, and can create new assignments to add to the course.
 
 \item \textbf{Enroll Course:} The student can easily enroll in a course in the
 enroll course view which is part of the student's account home view. This view
@@ -133,7 +144,8 @@ can then select a course and enroll in it.
 
 \item \textbf{Create Assignment:} The professor can create an assignment in his
 course view. This view is a drop down, where the professor can add the name and
-the due date of the assignment.
+the due date of the assignment. Once the assignment has been created the
+professor can add test cases to it.
 
 \item \textbf{Assignment Information:} Professors and students can see this
 view. For the students, the information view will contain the description, the
@@ -162,7 +174,7 @@ the professors can see the repositories of every student.
 
 \item \textbf{Add test cases:} The professor can add test cases in the
 assignment test cases view. This will ask for the input of the test case and the
-expected output.
+expected output. Optionally the professor can also set time and memory limits.
 
 \item \textbf{Grade:} Both students and professor can see grades. The students
 can see their own grade from the assignment view and from the course view. The
@@ -171,11 +183,11 @@ specific courses. The professors can see the grades of every student for his
 courses and assignments. He can also modify their grades.
 
 \item \textbf{Account Profile:} Both students and professors will be able to see
-the account profiles.
+their respective account profiles. They can also edit it accordingly.
 
 \item \textbf{Account Security:} Both students and professors will be able to
 see their account securities information. This will include the ability to
-change their passwords and view and add ssh keys.
+change their passwords and view, add and remove ssh keys.
 
 
 \end{enumerate}
@@ -186,37 +198,39 @@ The back end is the underlying server side software that manages the
 communication and flow between the front end and the database server, the
 repository manager, and the testing framework. The front end sends requests for
 data to the back end using its REST API. The back end then proceeds with
-establishing a connection to the MongoDB database server and then passing the
-query's result to the front end. The database server returns query results with
-JSON objects, and the back end does not have to serialize and deserialize the
-information since the front end also uses JSON objects as discussed in the
-earlier sections. The back end is also responsible of instantiating the sand
-boxes where the submitted code and test cases will run. This is also invoked by
-orders of the users when they interact with the front end of Panda Code Reviews.
+establishing a connection to the MongoDB\cite{mongodb} database server and then
+passing the query's result to the front end. The database server returns query
+results with JSON objects, and the back end does not have to serialize and
+deserialize the information since the front end also uses JSON objects as
+discussed in the earlier sections. The back end is also responsible of
+instantiating the sand boxes where the submitted code and test cases will run.
+This is also invoked by orders of the users when they interact with the front
+end of Panda Code Reviews.
 
 \subsubsection{Node.js}
 
-The back end service is being built in JavaScript using Node.js. Node.js is a
-platform built on Google Chrome's Open Source V8 JavaScript runtime engine for
-easily building fast and scalable network and server-side applications. It uses
-JavaScript as its scripting language and achieves high throughput via an event
-driven, non-blocking I/O model on a single-threaded event loop. It also contains
-a built-in HTTP server library, which allows for easy deployment of a web server
-without the need of external HTTP servers like Apache, Lighttpd or Nginx.
-Node.js poses additional ease of use when it comes to interacting with MongoDB,
-since it uses JSON-style documents as well. This means that no additional
-library or wrapper is needed to communicate with the database.
+The back end service is being built in JavaScript using Node.js\cite{nodejs}.
+Node.js is a platform built on Google Chrome's Open Source V8 JavaScript runtime
+engine for easily building fast and scalable network and server-side
+applications. It uses JavaScript as its scripting language and achieves high
+throughput via an event driven, non-blocking I/O model on a single-threaded
+event loop. It also contains a built-in HTTP server library, which allows for
+easy deployment of a web server without the need of external HTTP servers like
+Apache, Lighttpd or Nginx. Node.js poses additional ease of use when it comes to
+interacting with MongoDB, since it uses JSON-style documents as well. This means
+that no additional library or wrapper is needed to communicate with the
+database.
 
 \subsubsection{GitLab}
 
-GitLab is open source software to help developers collaborate on code. It can be
-used to create projects and repositories and manage access via HTTPS and SSH
-authentication. The team found no other software that provides a similar amount
-of API functions that GitLab provides. GitLab will be used as the repository
-manager for Panda Code Reviews. The Node.js server will communicate with the
-GitLab instance trough HTTP requests and will be able to manage repositories.
-Management includes, basic CRUD (Create, Read, Update, Delete) of repositories
-and users within.
+GitLab\cite{gitlab} is open source software to help developers collaborate on
+code. It can be used to create projects and repositories and manage access via
+HTTPS and SSH authentication. The team found no other software that provides a
+similar amount of API functions that GitLab provides. GitLab will be used as the
+repository manager for Panda Code Reviews. The Node.js server will communicate
+with the GitLab instance trough HTTP requests and will be able to manage
+repositories. Management includes, basic CRUD (Create, Read, Update, Delete) of
+repositories and users within.
 
 \subsubsection{Endpoints}
 
@@ -328,13 +342,15 @@ description.
 
 
 \subsubsection{Codeworkers}
+
 A codeworker will be a JavaScript object in the back end that will implement
 methods for compiling and running the test cases of the assignment submission
-that they are affiliated to. These workers are created when a students submits
-an assignment for evaluation. The codeworkers are placed on a queue and they get
-executed as they reach the front of such queue. The codeworkers then proceeds to
-compile, execute and test the code provided to him trough the submission and he
-then reports back the result.
+that they are affiliated to. These workers are created when a student submits an
+assignment for evaluation trough the front end. The front end then proceeds to
+pass the information ti the back end server trough the submission endpoint. The
+codeworkers are placed on a queue and they get executed as they reach the front
+of such queue. The codeworkers then proceeds to compile, execute and test the
+code provided to him trough the submission and he then reports back the result.
 
 Figure~\ref{fig:flow} contains a flow chart that depicts the flow of events of
 the Codeworkers.
@@ -352,25 +368,38 @@ its users.
 
 \subsubsection{MongoDB}
 
-MongoDB is a cross-platform document-oriented database system. It is classified
-as a NoSQL database which provides a mechanism for storage retrieval that is not
-as constrained as relational databases like MySQL or PostgreSQL. MongoDB
-features JSON-style (JavaScript Object Notation) documents with dynamic schemas,
-which allows simpler and quicker development. A dynamic schema approach enables
-flexibility for quickly changing applications, and the JSON style documents
-provide a unified language for passing database objects between the Node.js
-back end and the front end, both written entirely in JavaScript. MongoDB is the
-leading NoSQL DBMS, it is more stable than its closest competitor Redis.
+MongoDB\cite{mongodb} is a cross-platform document-oriented database system. It
+is classified as a NoSQL database which provides a mechanism for storage
+retrieval that is not as constrained as relational databases like MySQL or
+PostgreSQL. MongoDB features JSON-style (JavaScript Object Notation) documents
+with dynamic schemas, which allows simpler and quicker development. A dynamic
+schema approach enables flexibility for quickly changing applications, and the
+JSON style documents provide a unified language for passing database objects
+between the Node.js back end and the front end, both written entirely in
+JavaScript. MongoDB is the leading NoSQL DBMS, it is more stable than its
+closest competitor Redis.
 
 \subsubsection{Entity-Relationship Diagram}
 
-The collections have been defined following two different approaches: the
-standard ER diagram that defines entities and the relationships with each other
-and a JSON-like diagram that better models MongoDB's Documents and Collections.
-Overall, we created structures for users (Administrators, Professors, Students
-and TAs), courses, assignments and submissions.
+The collections and documents of the database have been defined following two
+different approaches: the standard ER diagram that defines entities and the
+relationships with each other shown in Figure~\ref{fig:classdiagram} and a JSON-
+like diagram that better models MongoDB's Documents and Collections shown in
+Figure~\ref{fig:jsondiagram}. Overall, we created structures for users
+(Administrators, Professors, Students and TAs), courses, assignments and
+submissions.
 
-\includepdf[pages={-}]{img/class_diagram.pdf}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/class-diagram}
+    \caption{Class Diagram\label{fig:classdiagram}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/json-diagram}
+    \caption{JSON Diagram\label{fig:jsondiagram}}
+\end{figure}
 
 
 \subsection{Deployment}
@@ -383,6 +412,3 @@ Manager (NPM) runs code tests to make sure that the latest push is healthy. If
 it passes the tests, the server is shut down, any new dependencies are installed
 with NPM, and the server is restarted with the new changes in effect. This all
 happens automatically.
-
-% This is the overview of the front end and back end architecture.
-\includepdf[pages={-}]{img/tech_archi.pdf}
