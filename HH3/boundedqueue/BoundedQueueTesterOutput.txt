@@ -1,0 +1,178 @@
+Tester class for BoundedQueue
+
+Size of BQ is 0
+
+Adding 5 to queue...-- BQ now contains:
+[5]
+--
+
+Adding 2 to queue...-- BQ now contains:
+[5,2]
+--
+
+Adding 8 to queue...-- BQ now contains:
+[5,2,8]
+--
+
+Adding 10 to queue...-- BQ now contains:
+[5,2,8,10]
+--
+
+Adding -8 to queue...-- BQ now contains:
+[5,2,8,10,-8]
+--
+
+Adding 300 to queue...-- BQ now contains:
+[5,2,8,10,-8,300]
+--
+
+Adding 101 to queue...-- BQ now contains:
+[5,2,8,10,-8,300,101]
+--
+
+Adding 0 to queue...-- BQ now contains:
+[5,2,8,10,-8,300,101,0]
+--
+
+Adding 1024 to queue...-- BQ now contains:
+[5,2,8,10,-8,300,101,0,1024]
+--
+
+Adding -100 to queue...-- BQ now contains:
+[5,2,8,10,-8,300,101,0,1024,-100]
+--
+
+Adding 20 to queue...
+java.lang.RuntimeException: Queue is full, size = 10
+
+Removing element from queue... Q returned: 5
+-- BQ now contains:
+[2,8,10,-8,300,101,0,1024,-100]
+--
+
+Removing element from queue... Q returned: 2
+-- BQ now contains:
+[8,10,-8,300,101,0,1024,-100]
+--
+
+Removing element from queue... Q returned: 8
+-- BQ now contains:
+[10,-8,300,101,0,1024,-100]
+--
+
+Removing element from queue... Q returned: 10
+-- BQ now contains:
+[-8,300,101,0,1024,-100]
+--
+
+Removing element from queue... Q returned: -8
+-- BQ now contains:
+[300,101,0,1024,-100]
+--
+
+Removing element from queue... Q returned: 300
+-- BQ now contains:
+[101,0,1024,-100]
+--
+
+Removing element from queue... Q returned: 101
+-- BQ now contains:
+[0,1024,-100]
+--
+
+Removing element from queue... Q returned: 0
+-- BQ now contains:
+[1024,-100]
+--
+
+Removing element from queue... Q returned: 1024
+-- BQ now contains:
+[-100]
+--
+
+Removing element from queue... Q returned: -100
+-- BQ now contains:
+[]
+--
+
+Removing element from queue...
+java.lang.RuntimeException: Queue is empty
+
+Peeking into queue...
+java.lang.RuntimeException: Queue is empty
+
+Adding 25 to queue...-- BQ now contains:
+[25]
+--
+
+Size of BQ is 1
+
+Peeking into queue... Q returned: 25
+-- BQ now contains:
+[25]
+--
+
+Adding 18 to queue...-- BQ now contains:
+[25,18]
+--
+
+Peeking into queue... Q returned: 25
+-- BQ now contains:
+[25,18]
+--
+
+Adding 12 to queue...-- BQ now contains:
+[25,18,12]
+--
+
+Size of BQ is 3
+
+Removing element from queue... Q returned: 25
+-- BQ now contains:
+[18,12]
+--
+
+Peeking into queue... Q returned: 18
+-- BQ now contains:
+[18,12]
+--
+
+Adding -15 to queue...-- BQ now contains:
+[18,12,-15]
+--
+
+Peeking into queue... Q returned: 18
+-- BQ now contains:
+[18,12,-15]
+--
+
+Adding 99 to queue...-- BQ now contains:
+[18,12,-15,99]
+--
+
+Removing element from queue... Q returned: 18
+-- BQ now contains:
+[12,-15,99]
+--
+
+Removing element from queue... Q returned: 12
+-- BQ now contains:
+[-15,99]
+--
+
+Removing element from queue... Q returned: -15
+-- BQ now contains:
+[99]
+--
+
+Removing element from queue... Q returned: 99
+-- BQ now contains:
+[]
+--
+
+Size of BQ is 0
+
+Contructing queue with -2 as maxSize...
+java.lang.RuntimeException: Invalid maxSize -2, value must be greater than 0
+
+Test Done
