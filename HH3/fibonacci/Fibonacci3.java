@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //for big input, wrong output
-public class Fibonacci3 {
+public class Main {
 
     public static int[] M;
 
