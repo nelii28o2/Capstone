@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Fibonacci1 {
+public class Main {
 
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
