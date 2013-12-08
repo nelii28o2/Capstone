@@ -1,24 +1,21 @@
-\autsection{General Approach}{Nelián Colón}
+\autsection{Methods and Approach to the solution}{Nelián Colón}
 
-At first, the team will be developing different parts of
-the system as they are all loosely coupled. Test driven development will be
-done, meaning that after each part gets successfully developed and unit tested,
-only then they are integrated and tested from a bigger perspective. The project
-is divided into 4 major parts, these are: front end client, back end server,
-test framework, and repository manager, as shown in Figure~\ref{arqu}. The team
-will be using a single cloud hosted Git repository (GitHub) where the project's
-code will live. Moreover, the
-team will follow the Scrum agile development process.
+At first, the team developed different parts of
+the system as they were all loosely coupled. Test driven development was
+done, meaning that after each part was successfully developed and unit tested,
+only then they were integrated and tested from a bigger perspective. As shown in Figure~\ref{arqu}, this project
+was divided into 2 major parts, these are: front end client, which contains the all that is seen by the user, and back end server, which is responsible for managing all the data and communications within the modules. The team used a single cloud hosted Git repository (GitHub) to host the project's
+code. Moreover, the
+team followed the Scrum agile development process.
 
 
 \subsection{Team Management}
 
-As formerly mentioned, the team will follow the Scrum agile development process.
-Meetings will be held at the start and end of each sprint, these meeting are
-sprint planning and sprint retrospective. Each task will have a leader and an
-assistant. The leader of each task is completely responsible for the task and
-the assistant will assist whenever the leader gets stuck on a problem. Tasks
-will have a weight that is going to be decided during the sprint planning
+As formerly mentioned, the team followed the Scrum agile development process.
+Meetings were held at the start and end of each sprint, these meeting were
+sprint planning and sprint retrospective. Each task had a leader and an
+assistant. The leader of each task was completely responsible for the task and
+the assistant helped whenever the leader gets stuck on a problem. Tasks had a weight that was decided during the sprint planning
 meeting. Table~\ref{tasks} contains the main tasks distribution for the project.
 For a more detailed list of task distribution see the Gantt Chart included as a
 separate file.
@@ -41,32 +38,26 @@ separate file.
   Project Management and Team Organization & Lead & Assist & \\ \hline
   Web Front end & & Lead & Assist \\ \hline
   Back end Server & & Assist & Lead \\ \hline
-  Test Framework & Assist & & Lead \\ \hline
   Accounts \& Repositories & Lead & Assist &\\ \hline
    \end{longtable}
 \subsection{Testing and Quality Control Procedures}
 
-To ensure the quality of the software product, the team will employ both static
-and dynamic testing. Static testing will be performed via code reviews for every
-single Git repository commit. The reviewers will be the other two team members
-that do not submit the comment, hence, every team member will review each change
-for commit. The review will include running the change in each of the team
-member's work station, and visually inspecting the code. This will help detect
-bugs and also maintain good coding guidelines and style. Dynamic testing will be
-performed via different testing levels. The first level will be Unit testing,
-which will be required for every commit in which unit tests are applicable. If a
-unit test is not included in an applicable change, then the commit will be
-unapproved by the other team members, and will not be pushed to the main
-repository. The next level of testing will be integration testing, which will
-occur even before integration begins. The last testing level will be system
-testing, which will occur on Amazon's infracture on every push of the
-repository. Nightly builds will be uploaded to Amazon's infrastructure to ensure
+To ensure the quality of the software product, the team employed both static
+and dynamic testing. Static testing was performed via code reviews for every
+single Git repository commit. The reviewers were the other two team members
+that did not submit the comment, hence, every team member reviewed each change
+for commit. The review included running the change in each of the team
+member's work station, and visually inspecting the code. This helped detect
+bugs and also maintain good coding guidelines and style. Dynamic testing was
+performed via different testing levels. The first level was Unit testing,
+which was required for every commit in which unit tests were applicable. The next level of testing was integration testing, which occured even before integration begins. The last testing level was system
+testing, which occured on Amazon's infracture on every push of the
+repository. Continuous deployment was used to ensure
 that the system is working every time, and system tests will run after the
 change is built remotely.
 
-\subsection{Documentation Standards}
+Copies of the test plans, test procedures and results are included with this document in a separate file.
 
-To document the design of the system, the team will produce a design document
-that will make use of the Unified Modeling Language (UML) standard to describe
-all object oriented architecture. The team will also document all Java code with
-the Javadoc standard and all Javascript code with Google's JSDoc.
+\subsection{Schedule}
+
+Only minor changes were done to the original schedule. These changes were the ones done by the professors to the class schedule. This only translated to more time to do some tasks and hence compensated possible delays.
