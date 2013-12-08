@@ -1,0 +1,46 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{hyperref}
+\usepackage{res/reportStyle}
+\usepackage{pdfpages}
+
+
+\begin{document}
+
+
+\input{res/titlePage}
+
+\pagenumbering{roman}
+
+\input{sec/executiveSummary}
+\newpage
+
+\tableofcontents
+
+\newpage
+\setlength{\parskip}{12pt}
+\pagenumbering{arabic}
+
+\input{sec/introduction}
+%\input{sec/specs}
+\input{sec/manApproach}
+\input{sec/market}
+%\input{sec/results}
+\input{sec/budget}
+\input{sec/futureWork} \clearpage
+
+\bibliographystyle{ieeetr}
+\bibliography{references}
+\newpage
+
+\appendixpage
+
+\appendix
+\addappheadtotoc
+
+\input{sec/techPlan}
+\input{sec/useCases} \clearpage
+\input{sec/screenshots} \clearpage
+\input{sec/sequentials}
+%\input{sec/testPlan}
+
+\end{document}

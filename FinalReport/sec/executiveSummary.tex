@@ -1,0 +1,55 @@
+\part*{Executive Summary}
+
+Assignments for Software Engineering classes have particular characteristics
+that make them time-consuming to grade by professors and teaching assistants
+(TA). In the majority of cases, they are handed in electronically. The grader
+then runs the code with some specific input to verify its correctness. Students
+might choose to use different programming languages, different IDEs, and
+different tests, making grading even more difficult. Additionally, many students
+write code in different styles, which may make it harder to read for a person
+that has been accustomed to a particular coding style. Furthermore,
+communication between the grader and the student may be slow, often relying in
+sluggish e-mail exchanges. All of this makes grading software assignments an
+enduring and tedious task.
+
+Panda Code Reviews has been modularly designed following industry leading
+standards and using the newest technology for web applications development. It
+is being built to be a fully hosted web application in the cloud that will
+eliminate many of the difficulties that come with grading software assignments.
+The application will host repositories that contain students' code. When a
+student submits code for an assignment, the system notifies the grader and
+automatically runs test cases previously specified by the grader. The results of
+the test cases are sent to the grader. The grader also has the option to add
+line-by-line comments to the student's code, and run the application's linter
+tools to verify code style. Finally, the grader will have the option to assign a
+grade to the student.
+
+The team has been able to progress on the development of Panda Code Reviews very
+closely to what was expected. The design of the system has been finished, and
+implementation started earlier than what was originally planned. This is because
+instead of creating mockups for design, html and css pages were built. This
+allows the usage of mockup code as production code, which means that mockup
+production is actually the beginning of the implementation of the front end.
+Additionally, a small prototype for compiling and running Java code that is
+uploaded via the web interface to the server has been built. This is part of the
+back end implementation. Thus, the team has begun early in these two aspects of
+the implementation of Panda Code Reviews.
+
+There have also been some small difficulties during design and the early phase
+of implementation. For repository management, an open source software called
+GitLab will be installed on the production server. The software needs at least
+768MB of RAM, which was more than what was available in the Amazon EC2
+development instance. This has been fixed by spawning a larger M1 Amazon EC2
+Instance. Also, The team has not been able to incorporate Google Ads from
+Adsense because a domain name with content is needed for creation of the Adsense
+account. Therefore, the setup of ads has been postponed. Even without these
+small difficulties, much work is still needed for the completion of the project.
+Notwithstanding it is going very similar as initially planned. The changes are
+shown in the accompanying Gantt Chart.
+
+Up to this date, \$11.34 have been used for the Amazon EC2 Micro instance that
+contains the development machine and the Amazon EC2 Medium instance that
+includes the installed GitLab software. The team has not had any other hardware
+or software costs up to the time of this writing. Thus, the projected
+expenditure of the project is still the same as what was initially proposed, and
+the budget costs have been as initially expected.
