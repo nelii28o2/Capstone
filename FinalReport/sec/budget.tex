@@ -1,15 +1,109 @@
-\autsection{Budget Analysis}{Daniel Santiago}
+\autsection{Budget}{Daniel Santiago}
+\label{sec:Budget}
 
-As of September 30, 2013 project expenditure totals at \$4,194.76. This total
-includes a cost of \$12.76 for the development Amazon EC2 Instances and the 3
-direct billable weeks that have elapsed since the start of the project. As a
-consequence, labor and benefit costs were \$4,182. Since no overtime has been
-payed out and work pace remains as projected, employment budget has been
-consumed by 33.33\%.
+Accurate estimates of cost is was always extremely important for ensuring that the team
+did not go over budget. Since this is a software project, the majority of the
+cost was attributed to Software Developers and Human Resources. Development costs
+remained low since computer workstations and an internet connection was
+provided at all times. An Amazon EC2 web services instance was purchased for the development and the final deployment of the product.
 
-The current server cost are for the on-demand use of the EC2 instance that hosts
-the web app server and the newly added instance of GitLab. A budget update is
-not required for the new GitLab instance since the Amazon EC2 M1 instance was
-already included in the previous analysis.
+\subsection{Project Cost}
+The total estimated cost of the project is \$42,791.87 plus recurrent costs
+after deployment. The broke down details follow.
 
-For the remaining of the project, the team expects to remain on budget.
+\subsubsection{List of Components}
+\begin{itemize}
+\item 1 Workstation minimum (\$0 - Provided by team). The workstations are
+needed for software development.
+\end{itemize}
+
+\subsubsection{Recurring Costs after Deployment}
+\begin{itemize}
+\item Amazon Web Services EC2 (\$528 per year). The service is needed for
+deploying the project. The service is the most reasonable for the project, since
+it is able to scale automatically and the pricing changes depending on the
+amount of server usage.
+\begin{itemize}
+\item EC2 Instance specs: C1.Medium (Compute-optimized)
+\item Intel Xeon - 2 vCPU, 350GB, 4GB RAM, \$0.145 per Hour
+\item Auto-Scaling: \$0.025 per Elastic Load Balancer-hour, \$0.008 per GB of data processed by an Elastic Load Balancer
+\end{itemize}
+
+%We have to do some math and mention how that math is considering x amount of
+% active instances.
+
+\item Symantec Verisign 256 bit SSL certificate (\$400 per year). The
+certificate is needed for ensuring secure connections via HTTPS.
+\end{itemize}
+
+\subsubsection{Human Resources}
+\setlength{\extrarowheight}{1.5pt}
+  \begin{longtable}{|c|p{3.5cm}|p{1.5cm}|p{1cm}|p{1cm}|p{1.5cm}|p{2cm}|}
+ \caption{Human Resources} \\
+   \hline
+  
+  \centering Employee & Position & Annual Salary & Hourly Wage & Hours per Week & Working Weeks & Payment \\
+  \hline \hline \endfirsthead
+  
+     \hline
+
+	\centering Employee & Position & Annual Salary & Hourly Wage & Hours per Week & Working Weeks & Payment \\
+	\hline \hline \endhead
+  
+  \endfoot  
+%TODO change to 9 weeks (16/sept - 15/nov)
+    Nelián & Project Manager and Software Engineer & \$55,000  & \$26.44  & 20    & 9    & \$4,759.61  \\ \hline
+    Samuel & Software Engineer & \$45,000  & \$21.63  & 20    & 9    & \$3,894.23  \\ \hline
+    Daniel & Software Engineer & \$45,000  & \$21.63  & 20    & 9    & \$3,894.23  \\ \hline
+    \multicolumn{1}{l}{}      & \multicolumn{1}{l}{}      & \multicolumn{1}{l}{}      & \multicolumn{1}{l}{}      & \multicolumn{1}{l}{}      & \multicolumn{1}{l}{\textbf{Total}} & \multicolumn{1}{l}{\$12,548.07}            
+\end{longtable}
+
+\subsubsection{Employee Fringe Benefits}
+\setlength{\extrarowheight}{1.5pt}
+  \begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+ \caption{Employee Fringe Benefits} \\
+   \hline
+  
+  \centering Sick Leave (0.5 days per month) & Paid Vacation (5 days) & Employee Health Insurance & Employee Fringe Benefits \\
+  \hline \hline \endfirsthead
+  
+     \hline
+
+	\centering Sick Leave (0.5 days per month) & Paid Vacation (5 days) & Employee Health Insurance & Employee Fringe Benefits \\
+	\hline \hline \endhead
+  
+  \endfoot  
+
+    \$800 & \$2,000 & \$2,000 & \$4,800  \\ \hline
+    \multicolumn{1}{l}{}      & \multicolumn{1}{l}{}      & \multicolumn{1}{l}{\textbf{Total}} & \multicolumn{1}{l}{\$14,400}
+\end{longtable}
+
+\subsubsection{Overhead Hours}
+
+\setlength{\extrarowheight}{1.5pt}
+  \begin{longtable}{|c|c|c|}
+ \caption{Overhead Hours\label{overheadHours}} \\
+   \hline
+  
+  \centering Task & Overhead Hours & Total Hours (3 members) \\
+  \hline \hline \endfirsthead
+  
+     \hline
+
+	\centering Task & Overhead Hours & Total Hours (3 members) \\
+	\hline \hline \endhead
+
+ \endfoot  
+
+	Team Meetings & 49 & 147 \\ \hline
+	Writing Reports & 96 & 288 \\ \hline
+	Course Meetings & 65 & 195 \\ \hline	  
+	Presentations & 4 & 12 \\ \hline
+  \multicolumn{1}{l}{}      & \multicolumn{1}{l}{\textbf{Non-billable Hours}} & \multicolumn{1}{l}{120}  \\
+  \multicolumn{1}{l}{}      & \multicolumn{1}{l}{\textbf{Total Hours}} & \multicolumn{1}{l}{642}  \\
+  \multicolumn{1}{l}{}      & \multicolumn{1}{l}{\textbf{Total}} & \multicolumn{1}{l}{\$14,915.80}
+    \end{longtable}
+    
+%% some extra stuff
+The project expenditure totaled at \$42,081.23. This total
+includes a cost of \$217.36 for the development Amazon EC2 Instances and the 9 billable weeks that have elapsed since the start of the project. What saved money for Team Aguacate was by using a free self signed SSL certificate, and by lowering the Amazon EC2 instance costs. The team managed to save 1.66\% of the initial budget.

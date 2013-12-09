@@ -1,0 +1,31 @@
+\autsection{Alternatives}{Daniel Santiago}
+\label{sec:alternatives}
+There are many available technologies that Team Aguacate could have used instead of the
+selected ones that were described in Section~\ref{sec:design}.
+
+\subsection{Front End}
+In the front end, it is inevitable to use HTML and CSS for the views. This is the only
+markup technology that is supported by all modern browsers. JavaScript is also the only
+scripting language that is supported by all modern browsers, therefore, it is inevitable
+to use JavaScript for all Front End scripting. The team could have used a similar technology
+to replace AngularJS. Some other frameworks exist, but the only viable alternative would
+have been EmberJS. EmberJS is a framework for creating web applications just like AngularJS.
+The main difference between EmberJS and AngularJS is that AngularJS automatically syncs all
+model objects with the view and vice-versa. This makes for an easier development pattern.
+Thus, AngularJS was chosen as the front end JavaScript framework.
+
+\subsection{Back End}
+Node.js and MongoDB were the two main technologies used for the back end. There are many
+alternatives that could have been used. For the database, an SQL DBMS could have been used,
+for example the open sourced MySQL or PostgreSQL DBMS. The main reason why MongoDB was used
+is because MongoDB's schema is dynamic. There is no need to initially specify a schema. This
+allowed Team Aguacate to change the schema on the fly while developing the application.
+The other plus side of using MongoDB for the database management system is that the objects
+that the database uses for storing information are represented as JSON (Javascript Object
+Notation). This is a major convenience, since Node.js and AngularJS both use JSON for
+representing data internally. If an SQL database was used, a database driver and middleware
+would have been needed, which greatly complicates the development procedure. Some alternatives to Node.js include HTTP servers like Apache and Lighttpd. There are many
+disadvantages of using these servers. One of them is that they do not support JavaScript nor
+JSON, which results in a lot of duplicated code. Furthermore, they do not provide
+development libraries. Also, the servers do not provide a package management system, which
+makes plugin installation a problem that could be easily solved by just using Node.js.
