@@ -14,9 +14,10 @@
 \input{sec/executiveSummary}
 \newpage
 
-\tableofcontents
+\tableofcontents \newpage
+\listoffigures \newpage
+\listoftables \newpage
 
-\newpage
 \setlength{\parskip}{12pt}
 \pagenumbering{arabic}
 
@@ -30,12 +31,18 @@
 
 \bibliographystyle{ieeetr}
 \bibliography{references}
+
 \newpage
 
-\appendixpage
-
+~\vspace{2in}
+\begin{center}
+\HRule \\[0.5cm]
+{ \huge \bfseries Appendices}\\[0.2cm]
+\HRule \\[1.5cm]
+\end{center}
 \appendix
 \addappheadtotoc
+\newpage
 
 \input{sec/alternatives} \clearpage
 \input{sec/useCases} \clearpage
